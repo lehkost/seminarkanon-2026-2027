@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Seminarkanon</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: volle Breite bis 1440px; Kopf zweispaltig, Ranglisten auf breiten Schirmen zweispaltig, Stimmzettel als Raster */
+:root {
+  --paper: #f7f8f6;
+  --card: #ffffff;
+  --ink: #1b2326;
+  --muted: #5d6a6e;
+  --rule: #d9dfdd;
+  --accent: #0f5560;      /* Tinte, tiefes Petrol */
+  --accent-soft: #e2eeee;
+  --mark: #7a9a12;        /* Grün für Werkkomplexe */
+  --mark-soft: #eef3dd;
+  --bar: #9fc3c6;
+  --f-display: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --f-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --f-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12181a; --card: #1a2225; --ink: #e6ebea; --muted: #9aa8aa; --rule: #2c373a;
+    --accent: #7cc4cc; --accent-soft: #1d3236; --mark: #b5d45a; --mark-soft: #273019; --bar: #2f5d63;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12181a; --card: #1a2225; --ink: #e6ebea; --muted: #9aa8aa; --rule: #2c373a;
+  --accent: #7cc4cc; --accent-soft: #1d3236; --mark: #b5d45a; --mark-soft: #273019; --bar: #2f5d63;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink);
+  font-family: var(--f-body); font-size: 16px; line-height: 1.55;
+}
+.wrap {
+  max-width: 1440px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 56px;
+}
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mono { font-family: var(--f-mono); }
+
+/* Kopf */
+.topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 18px; }
+.theme-btn { font: 13px var(--f-mono); color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+.theme-btn:hover { border-color: var(--accent); }
+header.intro { display: grid; gap: 18px 56px; grid-template-columns: minmax(0, 1fr); }
+.intro-a, .intro-b { display: grid; gap: 18px; align-content: start; min-width: 0; max-width: 72ch; }
+.intro .stats { grid-column: 1 / -1; }
+@media (min-width: 1000px) { header.intro { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--f-display); font-weight: 700; font-size: clamp(2.4rem, 6vw, 3.8rem); line-height: 1; margin: 0; letter-spacing: -0.025em; text-wrap: balance; }
+.course { margin: 0; font-size: 1.05rem; }
+blockquote.task {
+  margin: 0; padding: 14px 18px; border-left: 3px solid var(--accent);
+  background: var(--card); font-style: italic; font-size: 1.1rem;
+}
+.criteria { margin: 0; padding-left: 1.2em; display: grid; gap: 2px; }
+.intro p { margin: 0; }
+
+.stats { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+.stat b { font-family: var(--f-mono); font-weight: 500; font-size: 1.35rem; display: block; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 13px; color: var(--muted); }
+
+/* Navigation */
+nav.tabs { display: flex; gap: 4px; margin: 40px 0 0; border-bottom: 1px solid var(--rule); overflow-x: auto; }
+nav.tabs a {
+  font-family: var(--f-mono); font-size: 14px; text-decoration: none; color: var(--muted);
+  padding: 10px 14px; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap;
+}
+nav.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+.controls { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin: 22px 0 8px; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; background: var(--card); }
+.seg button {
+  font: 13px var(--f-mono); color: var(--muted); background: transparent; border: 0; padding: 7px 12px; cursor: pointer;
+}
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--paper); }
+.ctl-label { font-size: 13px; color: var(--muted); margin-right: 8px; }
+.explain { font-size: 14px; color: var(--muted); margin: 0 0 14px; max-width: 70ch; }
+
+/* Ranglisten */
+ol.rank { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+ol.rank > li { border-bottom: 1px solid var(--rule); break-inside: avoid; }
+@media (min-width: 1100px) {
+  ol.rank { columns: 2; column-gap: 48px; border-top: 0; }
+  ol.rank > li:first-child { border-top: 1px solid var(--rule); }
+  ol.rank > li { display: inline-block; width: 100%; }
+}
+.row {
+  display: grid; grid-template-columns: 3.2rem minmax(0, 1fr) 9rem; gap: 4px 14px; align-items: start;
+  padding: 10px 4px; width: 100%; text-align: left; background: none; border: 0; color: inherit; font: inherit; cursor: pointer;
+}
+.row:hover { background: var(--accent-soft); }
+.pos { font-family: var(--f-mono); font-size: 15px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.pos.tie { color: var(--muted); opacity: .6; }
+.what { min-width: 0; }
+.what .t { font-weight: 600; }
+.what .a { color: var(--muted); font-size: 14px; }
+.what .a a, .ballot li a { color: inherit; text-decoration-color: var(--rule); }
+.what .a a:hover, .ballot li a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.what .v { font-size: 13px; color: var(--muted); font-style: italic; }
+.badge {
+  display: inline-block; font: 11px var(--f-mono); letter-spacing: .04em; text-transform: uppercase;
+  background: var(--mark-soft); color: var(--mark); border-radius: 3px; padding: 1px 6px; margin-left: 6px; vertical-align: 2px;
+}
+.score { display: grid; gap: 4px; justify-items: end; }
+.score .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; font-size: 15px; }
+.score .sub { font-family: var(--f-mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.barbox { width: 100%; height: 5px; background: var(--rule); border-radius: 3px; overflow: hidden; }
+.barbox i { display: block; height: 100%; background: var(--bar); }
+.detail { padding: 0 4px 12px calc(3.2rem + 18px); font-size: 14px; color: var(--muted); display: grid; gap: 4px; }
+.detail .chips { display: flex; flex-wrap: wrap; gap: 4px 6px; }
+.chip { font: 12px var(--f-mono); border: 1px solid var(--rule); border-radius: 3px; padding: 1px 6px; background: var(--card); color: var(--ink); }
+.more { margin: 16px 0 0; font: 14px var(--f-mono); background: var(--card); color: var(--accent); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+
+/* Stimmzettel */
+.ballots { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 22px; }
+.ballot { background: var(--card); border: 1px solid var(--rule); border-radius: 4px; padding: 14px 16px 12px; min-width: 0;
+  background-image: linear-gradient(var(--rule), var(--rule)); background-size: 100% 1px; background-repeat: no-repeat; background-position: 0 46px; }
+.ballot h3 { margin: 0 0 14px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; font-size: 15px; font-weight: 600; }
+.ballot h3 .no { font-family: var(--f-mono); font-weight: 500; color: var(--accent); }
+.ballot h3 .who { font-style: italic; font-weight: 400; color: var(--muted); text-align: right; }
+.ballot ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 14px; line-height: 1.4; }
+.ballot li { display: grid; grid-template-columns: 1.7rem minmax(0,1fr) 2.2rem; gap: 6px; }
+.ballot li .r { font-family: var(--f-mono); color: var(--muted); font-size: 12px; padding-top: 2px; }
+.ballot li .p { font-family: var(--f-mono); color: var(--muted); font-size: 12px; text-align: right; padding-top: 2px; }
+.ballot li .au { color: var(--muted); }
+.ballot li.empty .w { color: var(--muted); font-style: italic; }
+.ballot .off { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--rule); }
+.ballot .off-label { font: 11px var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 4px; }
+.ballot .off li { opacity: .6; }
+.ballot .note { font-size: 13px; color: var(--muted); margin: -6px 0 8px; }
+.sup { color: var(--muted); }
+
+footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); display: grid; gap: 6px; }
+.err { padding: 16px; border: 1px solid var(--rule); background: var(--card); }
+
+@media (max-width: 560px) {
+  .row { grid-template-columns: 2.4rem minmax(0,1fr) 5.6rem; gap: 2px 10px; }
+  .detail { padding-left: calc(2.4rem + 14px); }
+}
+@media (prefers-reduced-motion: no-preference) { .barbox i { transition: width .25s ease; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="topbar">
+    <div class="eyebrow">FU Berlin · Wintersemester 2026/27</div>
+    <button type="button" class="theme-btn" id="theme-btn" aria-pressed="false">Dunkel</button>
+  </div>
+  <header class="intro">
+    <div class="intro-a">
+    <h1>Seminarkanon</h1>
+    <p class="course">Seminar 16480 <a href="https://www.fu-berlin.de/vv/de/lv/1110430" target="_blank" rel="noopener">„Die besten Bücher aller Zeiten? Kanonbildung im 21. Jahrhundert“</a> (Prof. Dr. Frank Fischer)</p>
+    <p>In der ersten Seminarsitzung am 15. Oktober 2026 wurde die Aufgabe gestellt:</p>
+    <blockquote class="task">„Erstellen Sie eine Top-10-Liste mit den Ihrer Meinung nach besten Romanen aller Zeiten.“</blockquote>
+    </div>
+    <div class="intro-b">
+    <div>
+      <p>Kriterien:</p>
+      <ul class="criteria">
+        <li>Die Liste ist gerankt, vom 1. (best) bis zum 10. Platz.</li>
+        <li>Es sollten ‘Romane’ sein.</li>
+        <li>Keine Einschränkungen hinsichtlich Originalsprachen, Autor*innen, Epochen, Romangenres.</li>
+        <li>Sie haben 10 Minuten Zeit.</li>
+      </ul>
+    </div>
+    <p>Nachfragen à la „Was meinen Sie mit ‚Roman‘?“ wurden dezidiert nicht beantwortet. Bei der Bewertung wurden nur die 10 erstgenannten Titel gewertet, der Rest ignoriert. Abgegeben wurden <span id="n-ballots">40</span> Stimmzettel.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <nav class="tabs" aria-label="Ansichten">
+    <a href="#werke" data-view="werke">Werke</a>
+    <a href="#autorinnen" data-view="autorinnen">Autor*innen</a>
+    <a href="#stimmzettel" data-view="stimmzettel">Stimmzettel</a>
+  </nav>
+
+  <main id="main"><p class="explain">Daten werden geladen …</p></main>
+
+  <footer>
+    <div>Credits: <a href="https://orcid.org/0000-0003-2419-6629" target="_blank" rel="noopener">Frank Fischer</a> (Idee, Website, Auswertung), <a href="https://orcid.org/0009-0002-9499-3981" target="_blank" rel="noopener">Ashley Lau</a> (Anreicherung der Daten, Auswertung)</div>
+    <div>Normdaten: <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a>. Namen der Abstimmenden sind pseudonymisiert. Datenstand: <span id="data-date"></span></div>
+  </footer>
+</div>
+
+<script>
+(function () {
+  const MAX = 10;
+  const pts = r => MAX + 1 - r;
+  const main = document.getElementById('main');
+  const state = { view: 'werke', workMetric: 'points', workMode: 'single', authorMetric: 'points', expanded: {}, open: {} };
+  const PAGE = 30;
+  let D = null;
+
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const wd = q => q ? `http://www.wikidata.org/entity/${q}` : null;
+  const link = (text, q) => q ? `<a href="${wd(q)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
+  const authorLinks = authors => authors.map(a => link(a.name, a.wikidata)).join(', ');
+  const coll = new Intl.Collator('de');
+  const mostCommon = arr => {
+    const m = new Map();
+    arr.forEach((x, i) => { const e = m.get(x) || { n: 0, i }; e.n++; m.set(x, e); });
+    return [...m.entries()].sort((a, b) => b[1].n - a[1].n || a[1].i - b[1].i).map(e => e[0]);
+  };
+
+  function prepare(data) {
+    const entries = [];
+    data.ballots.forEach(b => b.works.forEach(w => { if (!w.empty) entries.push({ ballot: b.id, ...w }); }));
+
+    // Werke (einzeln bzw. aggregiert nach Werkkomplex)
+    function workGroups(aggregate) {
+      const g = new Map();
+      for (const e of entries) {
+        const cx = aggregate && e.work_complex;
+        const key = cx ? cx.wikidata : (e.wikidata || 'title:' + e.title);
+        if (!g.has(key)) g.set(key, { key, qid: cx ? cx.wikidata : e.wikidata, complex: cx ? cx.label : null, items: [] });
+        g.get(key).items.push(e);
+      }
+      return [...g.values()].map(x => {
+        const titles = mostCommon(x.items.map(e => e.title));
+        const authors = mostCommon(x.items.map(e => e.authors.map(a => a.name).join(', ')));
+        const r = {
+          key: x.key, qid: x.qid,
+          title: x.complex || titles[0],
+          variants: x.complex ? titles : titles.slice(1),
+          author: x.items.find(e => e.authors.map(a => a.name).join(', ') === authors[0]).authors,
+          isComplex: !!x.complex,
+          points: x.items.reduce((s, e) => s + pts(e.rank), 0),
+          count: x.items.length,
+          ballots: new Set(x.items.map(e => e.ballot)).size,
+          hits: x.items.map(e => ({ ballot: e.ballot, rank: e.rank, title: e.title })).sort((a, b) => a.rank - b.rank || a.ballot - b.ballot)
+        };
+        if (x.complex) {
+          const whole = x.items.filter(e => e.work_complex.relation === 'whole').length;
+          r.split = { whole, part: x.items.length - whole };
+        }
+        return r;
+      });
+    }
+
+    // Autor*innen (Mehrfachautorschaft: jede Person erhält die vollen Punkte)
+    const ag = new Map();
+    for (const e of entries) for (const a of e.authors) {
+      const key = a.wikidata || 'name:' + a.name;
+      if (!ag.has(key)) ag.set(key, { key, qid: a.wikidata, names: [], items: [] });
+      const g = ag.get(key); g.names.push(a.name); g.items.push(e);
+    }
+    const authors = [...ag.values()].map(g => {
+      const names = mostCommon(g.names);
+      const works = mostCommon(g.items.map(e => e.wikidata || e.title));
+      return {
+        key: g.key, qid: g.qid, title: names[0], variants: names.slice(1),
+        points: g.items.reduce((s, e) => s + pts(e.rank), 0),
+        count: g.items.length,
+        ballots: new Set(g.items.map(e => e.ballot)).size,
+        works: works.length,
+        hits: g.items.map(e => ({ ballot: e.ballot, rank: e.rank, title: e.title })).sort((a, b) => a.rank - b.rank || a.ballot - b.ballot)
+      };
+    });
+
+    return { data, entries, works: { single: workGroups(false), agg: workGroups(true) }, authors };
+  }
+
+  function ranked(list, metric) {
+    const other = metric === 'points' ? 'count' : 'points';
+    const s = [...list].sort((a, b) => b[metric] - a[metric] || b[other] - a[other] || coll.compare(a.title, b.title));
+    let pos = 0;
+    s.forEach((x, i) => { if (i === 0 || x[metric] !== s[i - 1][metric]) pos = i + 1; x.pos = pos; x.tie = i > 0 && x[metric] === s[i - 1][metric]; });
+    return s;
+  }
+
+  const seg = (name, value, opts) =>
+    `<span class="seg" role="group">${opts.map(([v, l]) => `<button type="button" data-set="${name}" data-val="${v}" aria-pressed="${value === v}">${l}</button>`).join('')}</span>`;
+
+  function rankList(kind, list, metric) {
+    const max = Math.max(...list.map(x => x[metric]));
+    const limit = state.expanded[kind] ? list.length : Math.min(PAGE, list.length);
+    const unit = metric === 'points' ? 'Pkt.' : '×';
+    const rows = list.slice(0, limit).map(x => {
+      const open = state.open[kind + x.key];
+      const main = metric === 'points' ? x.points : x.count;
+      const sub = metric === 'points' ? `${x.count}× genannt` : `${x.points} Pkt.`;
+      const titleHtml = link(x.title, x.qid);
+      let meta = '';
+      if (kind === 'authors') {
+        meta = `<div class="a">${x.works} ${x.works === 1 ? 'Werk' : 'Werke'} · auf ${x.ballots} ${x.ballots === 1 ? 'Stimmzettel' : 'Stimmzetteln'}</div>`;
+        if (x.variants.length) meta += `<div class="v">auch: ${x.variants.map(esc).join(', ')}</div>`;
+      } else {
+        meta = `<div class="a">${authorLinks(x.author)}</div>`;
+        if (x.isComplex) meta += `<div class="v">${x.split.whole}× als Ganzes, ${x.split.part}× als Einzelband genannt</div>`;
+        else if (x.variants.length) meta += `<div class="v">auch: ${x.variants.map(esc).join(' · ')}</div>`;
+      }
+      const detail = open ? `<div class="detail">
+          <div>Platzierungen (Stimmzettel-Nr. · Platz):</div>
+          <div class="chips">${x.hits.map(h => `<span class="chip" title="${esc(h.title)}">#${h.ballot} · ${h.rank}.</span>`).join('')}</div>
+          ${x.isComplex || kind === 'authors' ? `<div>Titel: ${mostCommon(x.hits.map(h => h.title)).map(esc).join(' · ')}</div>` : ''}
+          ${x.qid ? `<div class="mono">${x.qid}</div>` : ''}
+        </div>` : '';
+      return `<li>
+        <div class="row" role="button" tabindex="0" aria-expanded="${!!open}" data-toggle="${esc(kind + x.key)}">
+          <span class="pos${x.tie ? ' tie' : ''}">${x.pos}.</span>
+          <span class="what"><span class="t">${titleHtml}</span>${x.isComplex ? '<span class="badge">Werkkomplex</span>' : ''}${meta}</span>
+          <span class="score"><span class="num">${main} ${unit}</span><span class="barbox"><i style="width:${(main / max * 100).toFixed(1)}%"></i></span><span class="sub">${sub}</span></span>
+        </div>${detail}</li>`;
+    }).join('');
+    const more = list.length > limit ? `<button type="button" class="more" data-more="${kind}">Alle ${list.length} anzeigen</button>` : '';
+    return `<ol class="rank">${rows}</ol>${more}`;
+  }
+
+  function viewWorks() {
+    const list = ranked(D.works[state.workMode === 'agg' ? 'agg' : 'single'], state.workMetric);
+    const ex = state.workMetric === 'points'
+      ? 'Gewichtet: Platz 1 erhält 10 Punkte, Platz 10 einen Punkt. Bei Punktgleichheit entscheidet die Zahl der Nennungen über die Reihenfolge, der Rangplatz wird geteilt.'
+      : 'Ungewichtet: gezählt wird, wie oft ein Werk unter den ersten zehn Plätzen genannt wurde.';
+    const ex2 = state.workMode === 'agg'
+      ? ' Werkkomplexe sind zusammengefasst: Nennungen der ganzen Reihe und einzelner Bände (Harry Potter, The Hunger Games, The Lord of the Rings, À la recherche du temps perdu, Neapolitanische Saga) zählen gemeinsam.'
+      : ' Jedes Werk zählt einzeln nach seiner Wikidata-ID; verschiedene Schreibungen und Übersetzungen desselben Werks sind zusammengeführt.';
+    return `<div class="controls">
+        <span><span class="ctl-label">Wertung</span>${seg('workMetric', state.workMetric, [['points', 'Punkte'], ['count', 'Nennungen']])}</span>
+        <span><span class="ctl-label">Werkkomplexe</span>${seg('workMode', state.workMode, [['single', 'einzeln'], ['agg', 'zusammengefasst']])}</span>
+      </div>
+      <p class="explain">${ex}${ex2} Eine Zeile anklicken für die einzelnen Platzierungen.</p>
+      ${rankList('works', list, state.workMetric)}`;
+  }
+
+  function viewAuthors() {
+    const list = ranked(D.authors, state.authorMetric);
+    const ex = state.authorMetric === 'points'
+      ? 'Gewichtet: Punkte aller genannten Werke einer Person, Platz 1 = 10 Punkte, Platz 10 = 1 Punkt.'
+      : 'Ungewichtet: Anzahl aller Nennungen von Werken einer Person.';
+    return `<div class="controls">
+        <span><span class="ctl-label">Wertung</span>${seg('authorMetric', state.authorMetric, [['points', 'Punkte'], ['count', 'Nennungen']])}</span>
+      </div>
+      <p class="explain">${ex} Zusammengeführt über die Wikidata-ID, daher zählen etwa „Fjodor Dostojewski“ und „Fyodor Dostoevsky“ gemeinsam. Bei „Die Elfen“ (Bernhard Hennen und James Sullivan) erhalten beide die vollen Punkte.</p>
+      ${rankList('authors', list, state.authorMetric)}`;
+  }
+
+  function viewBallots() {
+    const li = (w, counted) => {
+      if (w.empty) return `<li class="empty"><span class="r">${w.rank}.</span><span class="w">Platz leer gelassen</span><span class="p"></span></li>`;
+      const supplied = w.authors.some(a => a.supplied);
+      const au = authorLinks(w.authors);
+      const auHtml = supplied ? `<span title="Autorname ergänzt">[${au}]</span>` : au;
+      return `<li><span class="r">${w.rank}.</span><span class="w"><span class="au">${auHtml}:</span> ${link(w.title, w.wikidata)}</span><span class="p">${counted ? pts(w.rank) : ''}</span></li>`;
+    };
+    const cards = D.data.ballots.map(b => {
+      const notes = b.notes.filter(n => !/leer gelassen/.test(n));
+      return `<article class="ballot" id="z${b.id}">
+        <h3><span class="no">Nr. ${b.id}</span><span class="who">${b.voter_anonymous ? 'anonym' : esc(b.voter)}</span></h3>
+        ${notes.map(n => `<p class="note">${esc(n)}</p>`).join('')}
+        <ol>${b.works.map(w => li(w, true)).join('')}</ol>
+        ${b.overflow.length ? `<div class="off"><div class="off-label">nicht gewertet</div><ol>${b.overflow.map(w => li(w, false)).join('')}</ol></div>` : ''}
+      </article>`;
+    }).join('');
+    return `<p class="explain" style="margin-top:22px">Alle ${D.data.ballots.length} Stimmzettel in der abgegebenen Reihenfolge. Die Namen sind pseudonymisiert. Rechts stehen die vergebenen Punkte; Autornamen in eckigen Klammern wurden nachträglich ergänzt. Ab Platz 11 wurde nicht gewertet; die Nummerierung der Vorlagen ist durchgezählt (aus „5.5“ wurde Platz 6).</p>
+      <div class="ballots">${cards}</div>`;
+  }
+
+  function render() {
+    document.querySelectorAll('nav.tabs a').forEach(a => a.setAttribute('aria-current', a.dataset.view === state.view ? 'page' : 'false'));
+    if (!D) return;
+    main.innerHTML = state.view === 'autorinnen' ? viewAuthors() : state.view === 'stimmzettel' ? viewBallots() : viewWorks();
+  }
+
+  function route() {
+    const h = location.hash.replace('#', '');
+    state.view = ['werke', 'autorinnen', 'stimmzettel'].includes(h) ? h : 'werke';
+    render();
+  }
+
+  main.addEventListener('click', ev => {
+    if (ev.target.closest('a')) return;
+    const s = ev.target.closest('[data-set]');
+    if (s) { state[s.dataset.set] = s.dataset.val; state.expanded = {}; render(); return; }
+    const m = ev.target.closest('[data-more]');
+    if (m) { state.expanded[m.dataset.more] = true; render(); return; }
+    const t = ev.target.closest('[data-toggle]');
+    if (t) { const k = t.dataset.toggle; state.open[k] = !state.open[k]; render(); }
+  });
+  main.addEventListener('keydown', ev => {
+    const t = ev.target.closest('[data-toggle]');
+    if (t && (ev.key === 'Enter' || ev.key === ' ')) {
+      ev.preventDefault(); const k = t.dataset.toggle; state.open[k] = !state.open[k]; render();
+      const again = main.querySelector(`[data-toggle="${CSS.escape(k)}"]`); if (again) again.focus();
+    }
+  });
+  window.addEventListener('hashchange', route);
+
+  // Hell/Dunkel umschalten (Startwert: gespeicherte Wahl, sonst Systemeinstellung)
+  const themeBtn = document.getElementById('theme-btn');
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  let saved = null;
+  try { saved = localStorage.getItem('seminarkanon-theme'); } catch (e) {}
+  function applyTheme(t) {
+    if (t) document.documentElement.setAttribute('data-theme', t);
+    const dark = t ? t === 'dark' : mq.matches;
+    themeBtn.textContent = dark ? 'Hell' : 'Dunkel';
+    themeBtn.setAttribute('aria-pressed', String(dark));
+    themeBtn.setAttribute('aria-label', dark ? 'Zur hellen Ansicht wechseln' : 'Zur dunklen Ansicht wechseln');
+  }
+  applyTheme(saved);
+  mq.addEventListener('change', () => { if (!document.documentElement.hasAttribute('data-theme')) applyTheme(null); });
+  themeBtn.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
+    const next = cur === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem('seminarkanon-theme', next); } catch (e) {}
+    applyTheme(next);
+  });
+
+  fetch('seminarkanon.json')
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      D = prepare(data);
+      const nAuthors = D.authors.length;
+      document.getElementById('n-ballots').textContent = data.ballots.length;
+      document.getElementById('data-date').textContent = new Date(data.meta.created).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' });
+      const unc = data.ballots.reduce((s, b) => s + b.overflow.length, 0);
+      document.getElementById('stats').innerHTML = [
+        [data.ballots.length, 'Stimmzettel'],
+        [D.entries.length, 'gewertete Nennungen'],
+        [D.works.single.length, 'verschiedene Werke'],
+        [nAuthors, 'Autor*innen'],
+        [unc, 'Titel jenseits von Platz 10']
+      ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+      route();
+    })
+    .catch(() => { main.innerHTML = '<p class="err">Die Datei seminarkanon.json konnte nicht geladen werden. Sie muss im selben Ordner wie diese Seite liegen.</p>'; });
+
+  route();
+})();
+</script>
+</body>
+</html>
