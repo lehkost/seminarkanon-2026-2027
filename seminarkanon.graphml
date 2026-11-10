@@ -1,0 +1,3980 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d7" for="node" attr.name="work_complex" attr.type="boolean" />
+  <key id="d6" for="node" attr.name="wikidata" attr.type="string" />
+  <key id="d5" for="node" attr.name="author" attr.type="string" />
+  <key id="d4" for="node" attr.name="title" attr.type="string" />
+  <key id="d3" for="node" attr.name="label" attr.type="string" />
+  <key id="d2" for="node" attr.name="ballot" attr.type="long" />
+  <key id="d1" for="node" attr.name="bipartite" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="v1">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">1</data>
+      <data key="d3">Nr. 1 (Tavobo Gusad)</data>
+    </node>
+    <node id="Q25217632">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">N. K. Jemisin: The Fifth Season</data>
+      <data key="d4">The Fifth Season</data>
+      <data key="d5">N. K. Jemisin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q25217632</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1215312">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">S. E. Hinton: The Outsiders</data>
+      <data key="d4">The Outsiders</data>
+      <data key="d5">S. E. Hinton</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1215312</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q15228">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">J. R. R. Tolkien: The Lord of the Rings</data>
+      <data key="d4">The Lord of the Rings</data>
+      <data key="d5">J. R. R. Tolkien</data>
+      <data key="d6">http://www.wikidata.org/entity/Q15228</data>
+      <data key="d7">true</data>
+    </node>
+    <node id="Q11679">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Suzanne Collins: The Hunger Games</data>
+      <data key="d4">The Hunger Games</data>
+      <data key="d5">Suzanne Collins</data>
+      <data key="d6">http://www.wikidata.org/entity/Q11679</data>
+      <data key="d7">true</data>
+    </node>
+    <node id="Q20850750">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jandy Nelson: I'll Give You the Sun</data>
+      <data key="d4">I'll Give You the Sun</data>
+      <data key="d5">Jandy Nelson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q20850750</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q602288">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Stephen King: It</data>
+      <data key="d4">It</data>
+      <data key="d5">Stephen King</data>
+      <data key="d6">http://www.wikidata.org/entity/Q602288</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q8337">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">J. K. Rowling: Harry Potter</data>
+      <data key="d4">Harry Potter</data>
+      <data key="d5">J. K. Rowling</data>
+      <data key="d6">http://www.wikidata.org/entity/Q8337</data>
+      <data key="d7">true</data>
+    </node>
+    <node id="Q5459690">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Wendelin Van Draanen: Flipped</data>
+      <data key="d4">Flipped</data>
+      <data key="d5">Wendelin Van Draanen</data>
+      <data key="d6">http://www.wikidata.org/entity/Q5459690</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q565911">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Lucy Maud Montgomery: Anne of Green Gables</data>
+      <data key="d4">Anne of Green Gables</data>
+      <data key="d5">Lucy Maud Montgomery</data>
+      <data key="d6">http://www.wikidata.org/entity/Q565911</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q21451652">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Rainbow Rowell: Carry On</data>
+      <data key="d4">Carry On</data>
+      <data key="d5">Rainbow Rowell</data>
+      <data key="d6">http://www.wikidata.org/entity/Q21451652</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v2">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">2</data>
+      <data key="d3">Nr. 2 (Bivapu Tezan)</data>
+    </node>
+    <node id="Q1171410">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Irmgard Keun: Das kunstseidene M&#228;dchen</data>
+      <data key="d4">Das kunstseidene M&#228;dchen</data>
+      <data key="d5">Irmgard Keun</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1171410</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1213085">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Sylvia Plath: Die Glasglocke</data>
+      <data key="d4">Die Glasglocke</data>
+      <data key="d5">Sylvia Plath</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1213085</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141997140">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Siri Hustvedt: Die unsichtbare Frau</data>
+      <data key="d4">Die unsichtbare Frau</data>
+      <data key="d5">Siri Hustvedt</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141997140</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q16632043">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">&#201;douard Louis: Das Ende von Eddy</data>
+      <data key="d4">Das Ende von Eddy</data>
+      <data key="d5">&#201;douard Louis</data>
+      <data key="d6">http://www.wikidata.org/entity/Q16632043</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q27863945">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Sayaka Murata: Die Ladenh&#252;terin</data>
+      <data key="d4">Die Ladenh&#252;terin</data>
+      <data key="d5">Sayaka Murata</data>
+      <data key="d6">http://www.wikidata.org/entity/Q27863945</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q55360383">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Sally Rooney: Normale Menschen</data>
+      <data key="d4">Normale Menschen</data>
+      <data key="d5">Sally Rooney</data>
+      <data key="d6">http://www.wikidata.org/entity/Q55360383</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q55624271">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ottessa Moshfegh: Mein Jahr der Ruhe und Entspannung</data>
+      <data key="d4">Mein Jahr der Ruhe und Entspannung</data>
+      <data key="d5">Ottessa Moshfegh</data>
+      <data key="d6">http://www.wikidata.org/entity/Q55624271</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q25384340">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Benedict Wells: Vom Ende der Einsamkeit</data>
+      <data key="d4">Vom Ende der Einsamkeit</data>
+      <data key="d5">Benedict Wells</data>
+      <data key="d6">http://www.wikidata.org/entity/Q25384340</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141997152">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">&#201;douard Louis: Die Freiheit einer Frau</data>
+      <data key="d4">Die Freiheit einer Frau</data>
+      <data key="d5">&#201;douard Louis</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141997152</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q127414752">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ruth-Maria Thomas: Die sch&#246;nste Version</data>
+      <data key="d4">Die sch&#246;nste Version</data>
+      <data key="d5">Ruth-Maria Thomas</data>
+      <data key="d6">http://www.wikidata.org/entity/Q127414752</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v3">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">3</data>
+      <data key="d3">Nr. 3 (Mepapu Rapaz)</data>
+    </node>
+    <node id="Q892658">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Fran&#231;oise Sagan: Bonjour tristesse</data>
+      <data key="d4">Bonjour tristesse</data>
+      <data key="d5">Fran&#231;oise Sagan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q892658</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q6507">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">James Joyce: Finnegans Wake</data>
+      <data key="d4">Finnegans Wake</data>
+      <data key="d5">James Joyce</data>
+      <data key="d6">http://www.wikidata.org/entity/Q6507</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q723020">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Stephen King: 22/11/63</data>
+      <data key="d4">22/11/63</data>
+      <data key="d5">Stephen King</data>
+      <data key="d6">http://www.wikidata.org/entity/Q723020</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3822159">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Peter Handke: Die linksh&#228;ndige Frau</data>
+      <data key="d4">Die linksh&#228;ndige Frau</data>
+      <data key="d5">Peter Handke</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3822159</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3230679">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Annie Ernaux: Les Armoires vides</data>
+      <data key="d4">Les Armoires vides</data>
+      <data key="d5">Annie Ernaux</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3230679</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q459303">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Patrick S&#252;skind: Das Parf&#252;m</data>
+      <data key="d4">Das Parf&#252;m</data>
+      <data key="d5">Patrick S&#252;skind</data>
+      <data key="d6">http://www.wikidata.org/entity/Q459303</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q464928">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Marcel Proust: &#192; la recherche du temps perdu</data>
+      <data key="d4">&#192; la recherche du temps perdu</data>
+      <data key="d5">Marcel Proust</data>
+      <data key="d6">http://www.wikidata.org/entity/Q464928</data>
+      <data key="d7">true</data>
+    </node>
+    <node id="Q213167">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Rick Riordan: Percy Jackson</data>
+      <data key="d4">Percy Jackson</data>
+      <data key="d5">Rick Riordan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q213167</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q5724235">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Th&#233;ophile Gautier: Le Capitaine Fracasse</data>
+      <data key="d4">Le Capitaine Fracasse</data>
+      <data key="d5">Th&#233;ophile Gautier</data>
+      <data key="d6">http://www.wikidata.org/entity/Q5724235</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3226484">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Julien Gracq: Le Rivage des Syrtes</data>
+      <data key="d4">Le Rivage des Syrtes</data>
+      <data key="d5">Julien Gracq</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3226484</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v4">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">4</data>
+      <data key="d3">Nr. 4 (Purabe Pekid)</data>
+    </node>
+    <node id="Q523076">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Louisa May Alcott: Little Women</data>
+      <data key="d4">Little Women</data>
+      <data key="d5">Louisa May Alcott</data>
+      <data key="d6">http://www.wikidata.org/entity/Q523076</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141994706">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Natalja Baranskaja: Woche um Woche</data>
+      <data key="d4">Woche um Woche</data>
+      <data key="d5">Natalja Baranskaja</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141994706</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q119803356">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">R. F. Kuang: Yellowface</data>
+      <data key="d4">Yellowface</data>
+      <data key="d5">R. F. Kuang</data>
+      <data key="d6">http://www.wikidata.org/entity/Q119803356</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141997161">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Eva Reisinger: M&#228;nner t&#246;ten</data>
+      <data key="d4">M&#228;nner t&#246;ten</data>
+      <data key="d5">Eva Reisinger</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141997161</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q124404521">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Elena Fischer: Paradise Garden</data>
+      <data key="d4">Paradise Garden</data>
+      <data key="d5">Elena Fischer</data>
+      <data key="d6">http://www.wikidata.org/entity/Q124404521</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q59145046">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Maja Lunde: Die Geschichte der Bienen</data>
+      <data key="d4">Die Geschichte der Bienen</data>
+      <data key="d5">Maja Lunde</data>
+      <data key="d6">http://www.wikidata.org/entity/Q59145046</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1458903">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Cornelia Funke: Tintenherz</data>
+      <data key="d4">Tintenherz</data>
+      <data key="d5">Cornelia Funke</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1458903</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q113157560">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Michail Ossorgin: Siwzew Wraschek (Eine Stra&#223;e in Moskau)</data>
+      <data key="d4">Siwzew Wraschek (Eine Stra&#223;e in Moskau)</data>
+      <data key="d5">Michail Ossorgin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q113157560</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q18107449">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Lois Lowry: The Giver Quartet</data>
+      <data key="d4">The Giver Quartet</data>
+      <data key="d5">Lois Lowry</data>
+      <data key="d6">http://www.wikidata.org/entity/Q18107449</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q56491386">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">R. F. Kuang: The Poppy War</data>
+      <data key="d4">The Poppy War</data>
+      <data key="d5">R. F. Kuang</data>
+      <data key="d6">http://www.wikidata.org/entity/Q56491386</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v5">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">5</data>
+      <data key="d3">Nr. 5 (Tigima Risit)</data>
+    </node>
+    <node id="Q22981812">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Elena Ferrante: Neapolitanische Saga</data>
+      <data key="d4">Neapolitanische Saga</data>
+      <data key="d5">Elena Ferrante</data>
+      <data key="d6">http://www.wikidata.org/entity/Q22981812</data>
+      <data key="d7">true</data>
+    </node>
+    <node id="Q3927652">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Siri Hustvedt: Was ich liebte</data>
+      <data key="d4">Was ich liebte</data>
+      <data key="d5">Siri Hustvedt</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3927652</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q28846426">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Paul Auster: 4 3 2 1</data>
+      <data key="d4">4 3 2 1</data>
+      <data key="d5">Paul Auster</data>
+      <data key="d6">http://www.wikidata.org/entity/Q28846426</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q364565">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Marlen Haushofer: Die Wand</data>
+      <data key="d4">Die Wand</data>
+      <data key="d5">Marlen Haushofer</data>
+      <data key="d6">http://www.wikidata.org/entity/Q364565</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q223880">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jane Austen: Emma</data>
+      <data key="d4">Emma</data>
+      <data key="d5">Jane Austen</data>
+      <data key="d6">http://www.wikidata.org/entity/Q223880</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1962934">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Pascal Mercier: Nachtzug nach Lissabon</data>
+      <data key="d4">Nachtzug nach Lissabon</data>
+      <data key="d5">Pascal Mercier</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1962934</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q85875420">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Sheila Heti: Motherhood</data>
+      <data key="d4">Motherhood</data>
+      <data key="d5">Sheila Heti</data>
+      <data key="d6">http://www.wikidata.org/entity/Q85875420</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q131143579">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Isabella Hammad: Enter Ghost</data>
+      <data key="d4">Enter Ghost</data>
+      <data key="d5">Isabella Hammad</data>
+      <data key="d6">http://www.wikidata.org/entity/Q131143579</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1920758">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Vicki Baum: Menschen im Hotel</data>
+      <data key="d4">Menschen im Hotel</data>
+      <data key="d5">Vicki Baum</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1920758</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v6">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">6</data>
+      <data key="d3">Nr. 6 (Zazumu Zerav)</data>
+    </node>
+    <node id="Q141997207">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Chantal-Fleur Sandjon: Die Sonne, so strahlend und Schwarz</data>
+      <data key="d4">Die Sonne, so strahlend und Schwarz</data>
+      <data key="d5">Chantal-Fleur Sandjon</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141997207</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1990737">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Lemony Snicket: The Austere Academy (ASoUE)</data>
+      <data key="d4">The Austere Academy (ASoUE)</data>
+      <data key="d5">Lemony Snicket</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1990737</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3107329">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Douglas Adams: The Hitchhiker's Guide to the Galaxy</data>
+      <data key="d4">The Hitchhiker's Guide to the Galaxy</data>
+      <data key="d5">Douglas Adams</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3107329</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q25212851">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Nicola Yoon: Everything, Everything</data>
+      <data key="d4">Everything, Everything</data>
+      <data key="d5">Nicola Yoon</data>
+      <data key="d6">http://www.wikidata.org/entity/Q25212851</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q23763076">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Leigh Bardugo: Six of Crows</data>
+      <data key="d4">Six of Crows</data>
+      <data key="d5">Leigh Bardugo</data>
+      <data key="d6">http://www.wikidata.org/entity/Q23763076</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q114310172">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">R. F. Kuang: Babel</data>
+      <data key="d4">Babel</data>
+      <data key="d5">R. F. Kuang</data>
+      <data key="d6">http://www.wikidata.org/entity/Q114310172</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q360992">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Walter Moers: Ensel und Krete</data>
+      <data key="d4">Ensel und Krete</data>
+      <data key="d5">Walter Moers</data>
+      <data key="d6">http://www.wikidata.org/entity/Q360992</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q150827">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Mary Shelley: Frankenstein</data>
+      <data key="d4">Frankenstein</data>
+      <data key="d5">Mary Shelley</data>
+      <data key="d6">http://www.wikidata.org/entity/Q150827</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v7">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">7</data>
+      <data key="d3">Nr. 7 (Siveri Bomul)</data>
+    </node>
+    <node id="Q85761958">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jeanette Winterson: Frankissstein</data>
+      <data key="d4">Frankissstein</data>
+      <data key="d5">Jeanette Winterson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q85761958</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q115818209">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Gabrielle Zevin: Tomorrow, and Tomorrow, and Tomorrow</data>
+      <data key="d4">Tomorrow, and Tomorrow, and Tomorrow</data>
+      <data key="d5">Gabrielle Zevin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q115818209</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q821709">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">John Steinbeck: Travels with Charley: In Search of America</data>
+      <data key="d4">Travels with Charley: In Search of America</data>
+      <data key="d5">John Steinbeck</data>
+      <data key="d6">http://www.wikidata.org/entity/Q821709</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q28127551">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Arundhati Roy: The Ministry of Utmost Happiness</data>
+      <data key="d4">The Ministry of Utmost Happiness</data>
+      <data key="d5">Arundhati Roy</data>
+      <data key="d6">http://www.wikidata.org/entity/Q28127551</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q115683368">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Taylor Jenkins Reid: Daisy Jones &amp; The Six</data>
+      <data key="d4">Daisy Jones &amp; The Six</data>
+      <data key="d5">Taylor Jenkins Reid</data>
+      <data key="d6">http://www.wikidata.org/entity/Q115683368</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q170583">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jane Austen: Stolz und Vorurteil</data>
+      <data key="d4">Stolz und Vorurteil</data>
+      <data key="d5">Jane Austen</data>
+      <data key="d6">http://www.wikidata.org/entity/Q170583</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q100330025">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Annalee Newitz: The Future of Another Timeline</data>
+      <data key="d4">The Future of Another Timeline</data>
+      <data key="d5">Annalee Newitz</data>
+      <data key="d6">http://www.wikidata.org/entity/Q100330025</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141803586">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">&#1042;&#1083;&#1072;&#1076;&#1086; &#1044;&#1072;&#1074;&#1077;&#1088;&#1086;&#1074;: &#1042;&#1095;&#1077;&#1088;&#1072;</data>
+      <data key="d4">&#1042;&#1095;&#1077;&#1088;&#1072;</data>
+      <data key="d5">&#1042;&#1083;&#1072;&#1076;&#1086; &#1044;&#1072;&#1074;&#1077;&#1088;&#1086;&#1074;</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141803586</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q183883">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">J. D. Salinger: The Catcher in the Rye</data>
+      <data key="d4">The Catcher in the Rye</data>
+      <data key="d5">J. D. Salinger</data>
+      <data key="d6">http://www.wikidata.org/entity/Q183883</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v8">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">8</data>
+      <data key="d3">Nr. 8 (Vurezu Pileb)</data>
+    </node>
+    <node id="Q212898">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Thomas Mann: Der Zauberberg</data>
+      <data key="d4">Der Zauberberg</data>
+      <data key="d5">Thomas Mann</data>
+      <data key="d6">http://www.wikidata.org/entity/Q212898</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q836841">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Hermann Hesse: Das Glasperlenspiel</data>
+      <data key="d4">Das Glasperlenspiel</data>
+      <data key="d5">Hermann Hesse</data>
+      <data key="d6">http://www.wikidata.org/entity/Q836841</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q899334">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">G&#252;nter Grass: Die Blechtrommel</data>
+      <data key="d4">Die Blechtrommel</data>
+      <data key="d5">G&#252;nter Grass</data>
+      <data key="d6">http://www.wikidata.org/entity/Q899334</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q163297">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Albert Camus: L'&#201;tranger</data>
+      <data key="d4">L'&#201;tranger</data>
+      <data key="d5">Albert Camus</data>
+      <data key="d6">http://www.wikidata.org/entity/Q163297</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q217073">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Hermann Hesse: Der Steppenwolf</data>
+      <data key="d4">Der Steppenwolf</data>
+      <data key="d5">Hermann Hesse</data>
+      <data key="d6">http://www.wikidata.org/entity/Q217073</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q8265">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Cao Xueqin: A Dream of Red Mansions</data>
+      <data key="d4">A Dream of Red Mansions</data>
+      <data key="d5">Cao Xueqin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q8265</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q208460">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">George Orwell: 1984</data>
+      <data key="d4">1984</data>
+      <data key="d5">George Orwell</data>
+      <data key="d6">http://www.wikidata.org/entity/Q208460</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q694245">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Alfred D&#246;blin: Berlin Alexanderplatz</data>
+      <data key="d4">Berlin Alexanderplatz</data>
+      <data key="d5">Alfred D&#246;blin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q694245</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1194031">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Johann Wolfgang von Goethe: Wilhelm Meisters Lehrjahre</data>
+      <data key="d4">Wilhelm Meisters Lehrjahre</data>
+      <data key="d5">Johann Wolfgang von Goethe</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1194031</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v9">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">9</data>
+      <data key="d3">Nr. 9 (Muzige Pukik)</data>
+    </node>
+    <node id="Q178869">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Gabriel Garc&#237;a M&#225;rquez: Hundert Jahre Einsamkeit</data>
+      <data key="d4">Hundert Jahre Einsamkeit</data>
+      <data key="d5">Gabriel Garc&#237;a M&#225;rquez</data>
+      <data key="d6">http://www.wikidata.org/entity/Q178869</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q2870">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Margaret Mitchell: Vom Winde verweht (Gone with the Wind)</data>
+      <data key="d4">Vom Winde verweht (Gone with the Wind)</data>
+      <data key="d5">Margaret Mitchell</data>
+      <data key="d6">http://www.wikidata.org/entity/Q2870</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q147787">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Lew Tolstoi: Anna Karenina</data>
+      <data key="d4">Anna Karenina</data>
+      <data key="d5">Lew Tolstoi</data>
+      <data key="d6">http://www.wikidata.org/entity/Q147787</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q202975">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Emily Bront&#235;: Sturmh&#246;he</data>
+      <data key="d4">Sturmh&#246;he</data>
+      <data key="d5">Emily Bront&#235;</data>
+      <data key="d6">http://www.wikidata.org/entity/Q202975</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q326909">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Thomas Mann: Buddenbrooks</data>
+      <data key="d4">Buddenbrooks</data>
+      <data key="d5">Thomas Mann</data>
+      <data key="d6">http://www.wikidata.org/entity/Q326909</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1187639">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jin Yong: Demi-G&#246;tter und Halb-Teufel</data>
+      <data key="d4">Demi-G&#246;tter und Halb-Teufel</data>
+      <data key="d5">Jin Yong</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1187639</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v10">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">10</data>
+      <data key="d3">Nr. 10 (Varome Gedib)</data>
+    </node>
+    <node id="Q126942910">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Juan Carlos Onetti: Magda</data>
+      <data key="d4">Magda</data>
+      <data key="d5">Juan Carlos Onetti</data>
+      <data key="d6">http://www.wikidata.org/entity/Q126942910</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q16130921">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Zeruya Shalev: Liebesleben</data>
+      <data key="d4">Liebesleben</data>
+      <data key="d5">Zeruya Shalev</data>
+      <data key="d6">http://www.wikidata.org/entity/Q16130921</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q134884901">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Yasmina Reza: Gl&#252;cklich die Gl&#252;cklichen</data>
+      <data key="d4">Gl&#252;cklich die Gl&#252;cklichen</data>
+      <data key="d5">Yasmina Reza</data>
+      <data key="d6">http://www.wikidata.org/entity/Q134884901</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q353180">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Georg B&#252;chner: Lenz</data>
+      <data key="d4">Lenz</data>
+      <data key="d5">Georg B&#252;chner</data>
+      <data key="d6">http://www.wikidata.org/entity/Q353180</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q50413747">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Annie Ernaux: Erinnerung eines M&#228;dchens</data>
+      <data key="d4">Erinnerung eines M&#228;dchens</data>
+      <data key="d5">Annie Ernaux</data>
+      <data key="d6">http://www.wikidata.org/entity/Q50413747</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q54352950">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Didier Eribon: R&#252;ckkehr nach Reims</data>
+      <data key="d4">R&#252;ckkehr nach Reims</data>
+      <data key="d5">Didier Eribon</data>
+      <data key="d6">http://www.wikidata.org/entity/Q54352950</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q844847">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Thomas Bernhard: Wittgensteins Neffe</data>
+      <data key="d4">Wittgensteins Neffe</data>
+      <data key="d5">Thomas Bernhard</data>
+      <data key="d6">http://www.wikidata.org/entity/Q844847</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141996873">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">David Foster Wallace: Der Planet Trillaphon im Verh&#228;ltnis zur &#220;blen Sache</data>
+      <data key="d4">Der Planet Trillaphon im Verh&#228;ltnis zur &#220;blen Sache</data>
+      <data key="d5">David Foster Wallace</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141996873</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q655701">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Imre Kert&#233;sz: Roman eines Schicksallosen</data>
+      <data key="d4">Roman eines Schicksallosen</data>
+      <data key="d5">Imre Kert&#233;sz</data>
+      <data key="d6">http://www.wikidata.org/entity/Q655701</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1636184">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Knut Hamsun: Victoria</data>
+      <data key="d4">Victoria</data>
+      <data key="d5">Knut Hamsun</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1636184</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v11">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">11</data>
+      <data key="d3">Nr. 11 (Posori Nekef)</data>
+    </node>
+    <node id="Q1195668">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Robert Musil: Der Mann ohne Eigenschaften</data>
+      <data key="d4">Der Mann ohne Eigenschaften</data>
+      <data key="d5">Robert Musil</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1195668</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q682733">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Franz Kafka: Das Schloss</data>
+      <data key="d4">Das Schloss</data>
+      <data key="d5">Franz Kafka</data>
+      <data key="d6">http://www.wikidata.org/entity/Q682733</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1204366">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Virginia Woolf: A Room of One's Own</data>
+      <data key="d4">A Room of One's Own</data>
+      <data key="d5">Virginia Woolf</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1204366</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q501351">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ernest Hemingway: Fiesta</data>
+      <data key="d4">Fiesta</data>
+      <data key="d5">Ernest Hemingway</data>
+      <data key="d6">http://www.wikidata.org/entity/Q501351</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q727408">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Joseph Conrad: Lord Jim</data>
+      <data key="d4">Lord Jim</data>
+      <data key="d5">Joseph Conrad</data>
+      <data key="d6">http://www.wikidata.org/entity/Q727408</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1214721">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Simone de Beauvoir: Les Mandarins</data>
+      <data key="d4">Les Mandarins</data>
+      <data key="d5">Simone de Beauvoir</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1214721</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q670637">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jean-Paul Sartre: Geschlossene Gesellschaft</data>
+      <data key="d4">Geschlossene Gesellschaft</data>
+      <data key="d5">Jean-Paul Sartre</data>
+      <data key="d6">http://www.wikidata.org/entity/Q670637</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v12">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">12</data>
+      <data key="d3">Nr. 12 (Vikiva Bubov)</data>
+    </node>
+    <node id="Q140085770">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">William Finnegan: Barbarentage</data>
+      <data key="d4">Barbarentage</data>
+      <data key="d5">William Finnegan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q140085770</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q107143229">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Michelle Zauner: Crying in H Mart</data>
+      <data key="d4">Crying in H Mart</data>
+      <data key="d5">Michelle Zauner</data>
+      <data key="d6">http://www.wikidata.org/entity/Q107143229</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q20709044">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Hanya Yanagihara: Ein wenig Leben</data>
+      <data key="d4">Ein wenig Leben</data>
+      <data key="d5">Hanya Yanagihara</data>
+      <data key="d6">http://www.wikidata.org/entity/Q20709044</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q28083618">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Nino Haratischwili: Das achte Leben (F&#252;r Brilka)</data>
+      <data key="d4">Das achte Leben (F&#252;r Brilka)</data>
+      <data key="d5">Nino Haratischwili</data>
+      <data key="d6">http://www.wikidata.org/entity/Q28083618</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q108092858">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Chimamanda Ngozi Adichie: Trauer ist das Gl&#252;ck, geliebt zu haben</data>
+      <data key="d4">Trauer ist das Gl&#252;ck, geliebt zu haben</data>
+      <data key="d5">Chimamanda Ngozi Adichie</data>
+      <data key="d6">http://www.wikidata.org/entity/Q108092858</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q113957948">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ronya Othmann: Die Sommer</data>
+      <data key="d4">Die Sommer</data>
+      <data key="d5">Ronya Othmann</data>
+      <data key="d6">http://www.wikidata.org/entity/Q113957948</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q15820604">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Catalin Dorian Florescu: Jacob beschlie&#223;t zu lieben</data>
+      <data key="d4">Jacob beschlie&#223;t zu lieben</data>
+      <data key="d5">Catalin Dorian Florescu</data>
+      <data key="d6">http://www.wikidata.org/entity/Q15820604</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v13">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">13</data>
+      <data key="d3">Nr. 13 (Relave Bavev)</data>
+    </node>
+    <node id="Q82464">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Oscar Wilde: Das Bildnis des Dorian Gray</data>
+      <data key="d4">Das Bildnis des Dorian Gray</data>
+      <data key="d5">Oscar Wilde</data>
+      <data key="d6">http://www.wikidata.org/entity/Q82464</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v14">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">14</data>
+      <data key="d3">Nr. 14 (Zofipi Dobuz)</data>
+    </node>
+    <node id="Q141092693">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Dana Vowinckel: Anton und Alma</data>
+      <data key="d4">Anton und Alma</data>
+      <data key="d5">Dana Vowinckel</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141092693</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q27780083">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Thomas Melle: Die Welt im R&#252;cken</data>
+      <data key="d4">Die Welt im R&#252;cken</data>
+      <data key="d5">Thomas Melle</data>
+      <data key="d6">http://www.wikidata.org/entity/Q27780083</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141998094">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ozan Zakariya Keskink&#305;l&#305;&#231;: Hundesohn</data>
+      <data key="d4">Hundesohn</data>
+      <data key="d5">Ozan Zakariya Keskink&#305;l&#305;&#231;</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141998094</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q136452306">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Iris Wolff: Die Unsch&#228;rfe der Welt</data>
+      <data key="d4">Die Unsch&#228;rfe der Welt</data>
+      <data key="d5">Iris Wolff</data>
+      <data key="d6">http://www.wikidata.org/entity/Q136452306</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q30742322">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Annie Ernaux: Das Ereignis</data>
+      <data key="d4">Das Ereignis</data>
+      <data key="d5">Annie Ernaux</data>
+      <data key="d6">http://www.wikidata.org/entity/Q30742322</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142001936">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Clara Leinemann: Gelbe Monster</data>
+      <data key="d4">Gelbe Monster</data>
+      <data key="d5">Clara Leinemann</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142001936</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142002462">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Yade Yasemin &#214;nder: Wir wissen, wir k&#246;nnten, und fallen synchron</data>
+      <data key="d4">Wir wissen, wir k&#246;nnten, und fallen synchron</data>
+      <data key="d5">Yade Yasemin &#214;nder</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142002462</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142002888">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Lin Hierse: Wovon wir tr&#228;umen</data>
+      <data key="d4">Wovon wir tr&#228;umen</data>
+      <data key="d5">Lin Hierse</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142002888</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v15">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">15</data>
+      <data key="d3">Nr. 15 (Dezaba Nogus)</data>
+    </node>
+    <node id="Q1217475">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Virginia Woolf: The Waves</data>
+      <data key="d4">The Waves</data>
+      <data key="d5">Virginia Woolf</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1217475</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q15080194">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Donna Tartt: The Goldfinch</data>
+      <data key="d4">The Goldfinch</data>
+      <data key="d5">Donna Tartt</data>
+      <data key="d6">http://www.wikidata.org/entity/Q15080194</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q99434216">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Susanna Clarke: Piranesi</data>
+      <data key="d4">Piranesi</data>
+      <data key="d5">Susanna Clarke</data>
+      <data key="d6">http://www.wikidata.org/entity/Q99434216</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q4843750">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jeanette Winterson: Oranges Are Not the Only Fruit</data>
+      <data key="d4">Oranges Are Not the Only Fruit</data>
+      <data key="d5">Jeanette Winterson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q4843750</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q22248559">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">&#201;douard Louis: Im Herzen der Gewalt</data>
+      <data key="d4">Im Herzen der Gewalt</data>
+      <data key="d5">&#201;douard Louis</data>
+      <data key="d6">http://www.wikidata.org/entity/Q22248559</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q85769180">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Carmen Maria Machado: In the Dream House</data>
+      <data key="d4">In the Dream House</data>
+      <data key="d5">Carmen Maria Machado</data>
+      <data key="d6">http://www.wikidata.org/entity/Q85769180</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q21189971">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Madeline Miller: The Song of Achilles</data>
+      <data key="d4">The Song of Achilles</data>
+      <data key="d5">Madeline Miller</data>
+      <data key="d6">http://www.wikidata.org/entity/Q21189971</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3190286">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Patti Smith: Just Kids</data>
+      <data key="d4">Just Kids</data>
+      <data key="d5">Patti Smith</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3190286</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v16">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">16</data>
+      <data key="d3">Nr. 16 (Rikoru Pibob)</data>
+    </node>
+    <node id="Q2008211">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ursula K. Le Guin: The Left Hand of Darkness</data>
+      <data key="d4">The Left Hand of Darkness</data>
+      <data key="d5">Ursula K. Le Guin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q2008211</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q139717537">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Aiki Mira: Proxi. Eine Endzeit-Utopie</data>
+      <data key="d4">Proxi. Eine Endzeit-Utopie</data>
+      <data key="d5">Aiki Mira</data>
+      <data key="d6">http://www.wikidata.org/entity/Q139717537</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q874381">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Michael Ende: Momo</data>
+      <data key="d4">Momo</data>
+      <data key="d5">Michael Ende</data>
+      <data key="d6">http://www.wikidata.org/entity/Q874381</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1541914">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Margaret Atwood: The Handmaid's Tale</data>
+      <data key="d4">The Handmaid's Tale</data>
+      <data key="d5">Margaret Atwood</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1541914</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1057726">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Robert Jordan: The Wheel of Time, Book 4: The Shadow Rising</data>
+      <data key="d4">The Wheel of Time, Book 4: The Shadow Rising</data>
+      <data key="d5">Robert Jordan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1057726</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q786908">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Walter Moers: Die 13&#189; Leben des K&#228;pt'n Blaub&#228;r</data>
+      <data key="d4">Die 13&#189; Leben des K&#228;pt'n Blaub&#228;r</data>
+      <data key="d5">Walter Moers</data>
+      <data key="d6">http://www.wikidata.org/entity/Q786908</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1212143">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Bernhard Hennen, James Sullivan: Die Elfen</data>
+      <data key="d4">Die Elfen</data>
+      <data key="d5">Bernhard Hennen, James Sullivan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1212143</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1349624">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ursula Poznanski: Erebos</data>
+      <data key="d4">Erebos</data>
+      <data key="d5">Ursula Poznanski</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1349624</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v17">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">17</data>
+      <data key="d3">Nr. 17 (Difola Dekim)</data>
+    </node>
+    <node id="Q114728809">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Kim de l'Horizon: Blutbuch</data>
+      <data key="d4">Blutbuch</data>
+      <data key="d5">Kim de l'Horizon</data>
+      <data key="d6">http://www.wikidata.org/entity/Q114728809</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1887393">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ingeborg Bachmann: Malina</data>
+      <data key="d4">Malina</data>
+      <data key="d5">Ingeborg Bachmann</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1887393</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q128620441">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Miranda July: All Fours</data>
+      <data key="d4">All Fours</data>
+      <data key="d5">Miranda July</data>
+      <data key="d6">http://www.wikidata.org/entity/Q128620441</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q114720832">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Fatma Aydemir: Dschinns</data>
+      <data key="d4">Dschinns</data>
+      <data key="d5">Fatma Aydemir</data>
+      <data key="d6">http://www.wikidata.org/entity/Q114720832</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q212340">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Harper Lee: Wer die Nachtigall st&#246;rt</data>
+      <data key="d4">Wer die Nachtigall st&#246;rt</data>
+      <data key="d5">Harper Lee</data>
+      <data key="d6">http://www.wikidata.org/entity/Q212340</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142003916">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Senthuran Varatharajah: Vor der Zunahme der Zeichen</data>
+      <data key="d4">Vor der Zunahme der Zeichen</data>
+      <data key="d5">Senthuran Varatharajah</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142003916</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q126828922">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Lidia Yuknavitch: The Chronology of Water</data>
+      <data key="d4">The Chronology of Water</data>
+      <data key="d5">Lidia Yuknavitch</data>
+      <data key="d6">http://www.wikidata.org/entity/Q126828922</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3823559">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Elfriede Jelinek: Die Klavierspielerin</data>
+      <data key="d4">Die Klavierspielerin</data>
+      <data key="d5">Elfriede Jelinek</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3823559</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q133876404">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Necati &#214;ziri: Vatermal</data>
+      <data key="d4">Vatermal</data>
+      <data key="d5">Necati &#214;ziri</data>
+      <data key="d6">http://www.wikidata.org/entity/Q133876404</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v18">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">18</data>
+      <data key="d3">Nr. 18 (Topepo Dufaz)</data>
+    </node>
+    <node id="Q64590884">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Madeline Miller: Circe</data>
+      <data key="d4">Circe</data>
+      <data key="d5">Madeline Miller</data>
+      <data key="d6">http://www.wikidata.org/entity/Q64590884</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q30600501">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Yaa Gyasi: Homegoing</data>
+      <data key="d4">Homegoing</data>
+      <data key="d5">Yaa Gyasi</data>
+      <data key="d6">http://www.wikidata.org/entity/Q30600501</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q5979741">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jacqueline Harpman: I Who Have Never Known Men</data>
+      <data key="d4">I Who Have Never Known Men</data>
+      <data key="d5">Jacqueline Harpman</data>
+      <data key="d6">http://www.wikidata.org/entity/Q5979741</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q140695037">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Mareike Fallwickl: Die Wut, die bleibt</data>
+      <data key="d4">Die Wut, die bleibt</data>
+      <data key="d5">Mareike Fallwickl</data>
+      <data key="d6">http://www.wikidata.org/entity/Q140695037</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1069956">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Toni Morrison: The Bluest Eye</data>
+      <data key="d4">The Bluest Eye</data>
+      <data key="d5">Toni Morrison</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1069956</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q131036665">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Sally Rooney: Intermezzo</data>
+      <data key="d4">Intermezzo</data>
+      <data key="d5">Sally Rooney</data>
+      <data key="d6">http://www.wikidata.org/entity/Q131036665</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q96075523">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Nikesh Shukla: The Good Immigrant</data>
+      <data key="d4">The Good Immigrant</data>
+      <data key="d5">Nikesh Shukla</data>
+      <data key="d6">http://www.wikidata.org/entity/Q96075523</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q756604">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Marjane Satrapi: Persepolis</data>
+      <data key="d4">Persepolis</data>
+      <data key="d5">Marjane Satrapi</data>
+      <data key="d6">http://www.wikidata.org/entity/Q756604</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q130747162">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Rachel Gillig: One Dark Window</data>
+      <data key="d4">One Dark Window</data>
+      <data key="d5">Rachel Gillig</data>
+      <data key="d6">http://www.wikidata.org/entity/Q130747162</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q428680">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Alison Bechdel: Fun Home</data>
+      <data key="d4">Fun Home</data>
+      <data key="d5">Alison Bechdel</data>
+      <data key="d6">http://www.wikidata.org/entity/Q428680</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v19">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">19</data>
+      <data key="d3">Nr. 19 (Rugada Putan)</data>
+    </node>
+    <node id="Q109567666">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">&#201;douard Louis: Anleitung, ein anderer zu werden</data>
+      <data key="d4">Anleitung, ein anderer zu werden</data>
+      <data key="d5">&#201;douard Louis</data>
+      <data key="d6">http://www.wikidata.org/entity/Q109567666</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q111432741">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Douglas Stuart: Young Mungo</data>
+      <data key="d4">Young Mungo</data>
+      <data key="d5">Douglas Stuart</data>
+      <data key="d6">http://www.wikidata.org/entity/Q111432741</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q19876383">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Marian Engel: B&#228;r</data>
+      <data key="d4">B&#228;r</data>
+      <data key="d5">Marian Engel</data>
+      <data key="d6">http://www.wikidata.org/entity/Q19876383</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142004408">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Shida Bazyar: Nachts ist es leise in Teheran</data>
+      <data key="d4">Nachts ist es leise in Teheran</data>
+      <data key="d5">Shida Bazyar</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142004408</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142004944">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Olga Ravn: Meine Arbeit</data>
+      <data key="d4">Meine Arbeit</data>
+      <data key="d5">Olga Ravn</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142004944</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v20">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">20</data>
+      <data key="d3">Nr. 20 (Nosuri Zebut)</data>
+    </node>
+    <node id="Q254661">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">&#214;d&#246;n von Horv&#225;th: Jugend ohne Gott</data>
+      <data key="d4">Jugend ohne Gott</data>
+      <data key="d5">&#214;d&#246;n von Horv&#225;th</data>
+      <data key="d6">http://www.wikidata.org/entity/Q254661</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q207332">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Erich Maria Remarque: Im Westen nichts Neues</data>
+      <data key="d4">Im Westen nichts Neues</data>
+      <data key="d5">Erich Maria Remarque</data>
+      <data key="d6">http://www.wikidata.org/entity/Q207332</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1430645">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Monika Maron: Flugasche</data>
+      <data key="d4">Flugasche</data>
+      <data key="d5">Monika Maron</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1430645</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q134007202">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Vincenzo Latronico: Die Perfektionen</data>
+      <data key="d4">Die Perfektionen</data>
+      <data key="d5">Vincenzo Latronico</data>
+      <data key="d6">http://www.wikidata.org/entity/Q134007202</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142005516">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ilija Matusko: Verdunstung in der Randzone</data>
+      <data key="d4">Verdunstung in der Randzone</data>
+      <data key="d5">Ilija Matusko</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142005516</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3565822">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Greg Egan: Diaspora</data>
+      <data key="d4">Diaspora</data>
+      <data key="d5">Greg Egan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3565822</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142006002">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Joshua Gro&#223;: Flexen in Miami</data>
+      <data key="d4">Flexen in Miami</data>
+      <data key="d5">Joshua Gro&#223;</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142006002</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q499564">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">G&#252;nter Grass: Hundejahre</data>
+      <data key="d4">Hundejahre</data>
+      <data key="d5">G&#252;nter Grass</data>
+      <data key="d6">http://www.wikidata.org/entity/Q499564</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v21">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">21</data>
+      <data key="d3">Nr. 21 (Barisi Gamod)</data>
+    </node>
+    <node id="Q40205">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">David Mitchell: Cloud Atlas</data>
+      <data key="d4">Cloud Atlas</data>
+      <data key="d5">David Mitchell</data>
+      <data key="d6">http://www.wikidata.org/entity/Q40205</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q480">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Miguel de Cervantes: Don Quixote</data>
+      <data key="d4">Don Quixote</data>
+      <data key="d5">Miguel de Cervantes</data>
+      <data key="d6">http://www.wikidata.org/entity/Q480</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q129929">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Philip Pullman: The Amber Spyglass</data>
+      <data key="d4">The Amber Spyglass</data>
+      <data key="d5">Philip Pullman</data>
+      <data key="d6">http://www.wikidata.org/entity/Q129929</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q628410">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">John Ajvide Lindqvist: Let the Right One In</data>
+      <data key="d4">Let the Right One In</data>
+      <data key="d5">John Ajvide Lindqvist</data>
+      <data key="d6">http://www.wikidata.org/entity/Q628410</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q41542">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Bram Stoker: Dracula</data>
+      <data key="d4">Dracula</data>
+      <data key="d5">Bram Stoker</data>
+      <data key="d6">http://www.wikidata.org/entity/Q41542</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q165318">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Fyodor Dostoevsky: Crime and Punishment</data>
+      <data key="d4">Crime and Punishment</data>
+      <data key="d5">Fyodor Dostoevsky</data>
+      <data key="d6">http://www.wikidata.org/entity/Q165318</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q26505">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ernest Hemingway: The Old Man and the Sea</data>
+      <data key="d4">The Old Man and the Sea</data>
+      <data key="d5">Ernest Hemingway</data>
+      <data key="d6">http://www.wikidata.org/entity/Q26505</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q457977">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">John Steinbeck: Of Mice and Men</data>
+      <data key="d4">Of Mice and Men</data>
+      <data key="d5">John Steinbeck</data>
+      <data key="d6">http://www.wikidata.org/entity/Q457977</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v22">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">22</data>
+      <data key="d3">Nr. 22 (Kotafe Futed)</data>
+    </node>
+    <node id="Q1112285">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Robert Musil: Die Verwirrungen des Z&#246;glings T&#246;rle&#223;</data>
+      <data key="d4">Die Verwirrungen des Z&#246;glings T&#246;rle&#223;</data>
+      <data key="d5">Robert Musil</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1112285</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q860577">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Hermann Hesse: Demian</data>
+      <data key="d4">Demian</data>
+      <data key="d5">Hermann Hesse</data>
+      <data key="d6">http://www.wikidata.org/entity/Q860577</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1296168">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Theodor Fontane: Effi Briest</data>
+      <data key="d4">Effi Briest</data>
+      <data key="d5">Theodor Fontane</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1296168</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3057258">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Witold Gombrowicz: Ferdydurke</data>
+      <data key="d4">Ferdydurke</data>
+      <data key="d5">Witold Gombrowicz</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3057258</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q106821905">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ilija Trojanow: Eistau</data>
+      <data key="d4">Eistau</data>
+      <data key="d5">Ilija Trojanow</data>
+      <data key="d6">http://www.wikidata.org/entity/Q106821905</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q141994313">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jarek Westermark: Trute&#324;, czyli rozprawa z ojcostwem</data>
+      <data key="d4">Trute&#324;, czyli rozprawa z ojcostwem</data>
+      <data key="d5">Jarek Westermark</data>
+      <data key="d6">http://www.wikidata.org/entity/Q141994313</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v23">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">23</data>
+      <data key="d3">Nr. 23 (Tomoza Bemir)</data>
+    </node>
+    <node id="Q57417096">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Anna Burns: Milkman</data>
+      <data key="d4">Milkman</data>
+      <data key="d5">Anna Burns</data>
+      <data key="d6">http://www.wikidata.org/entity/Q57417096</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q114761918">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Audrey Magee: The Colony</data>
+      <data key="d4">The Colony</data>
+      <data key="d5">Audrey Magee</data>
+      <data key="d6">http://www.wikidata.org/entity/Q114761918</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q100997892">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Douglas Stuart: Shuggie Bain</data>
+      <data key="d4">Shuggie Bain</data>
+      <data key="d5">Douglas Stuart</data>
+      <data key="d6">http://www.wikidata.org/entity/Q100997892</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q841315">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Heinrich B&#246;ll: Die verlorene Ehre der Katharina Blum</data>
+      <data key="d4">Die verlorene Ehre der Katharina Blum</data>
+      <data key="d5">Heinrich B&#246;ll</data>
+      <data key="d6">http://www.wikidata.org/entity/Q841315</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v24">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">24</data>
+      <data key="d3">Nr. 24 (anonym)</data>
+    </node>
+    <node id="Q6511">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">James Joyce: Ulysses</data>
+      <data key="d4">Ulysses</data>
+      <data key="d5">James Joyce</data>
+      <data key="d6">http://www.wikidata.org/entity/Q6511</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q35160">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Homer: Odyssee</data>
+      <data key="d4">Odyssee</data>
+      <data key="d5">Homer</data>
+      <data key="d6">http://www.wikidata.org/entity/Q35160</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q219552">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Charles Dickens: Gro&#223;e Erwartungen</data>
+      <data key="d4">Gro&#223;e Erwartungen</data>
+      <data key="d5">Charles Dickens</data>
+      <data key="d6">http://www.wikidata.org/entity/Q219552</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q2092894">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Honor&#233; de Balzac: Verlorene Illusionen</data>
+      <data key="d4">Verlorene Illusionen</data>
+      <data key="d5">Honor&#233; de Balzac</data>
+      <data key="d6">http://www.wikidata.org/entity/Q2092894</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q36097">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Franz Kafka: Der Prozess</data>
+      <data key="d4">Der Prozess</data>
+      <data key="d5">Franz Kafka</data>
+      <data key="d6">http://www.wikidata.org/entity/Q36097</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1513820">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Stefan Zweig: Schachnovelle</data>
+      <data key="d4">Schachnovelle</data>
+      <data key="d5">Stefan Zweig</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1513820</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q161531">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Lew Tolstoi: Krieg und Frieden</data>
+      <data key="d4">Krieg und Frieden</data>
+      <data key="d5">Lew Tolstoi</data>
+      <data key="d6">http://www.wikidata.org/entity/Q161531</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v25">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">25</data>
+      <data key="d3">Nr. 25 (Bemana Ruset)</data>
+    </node>
+    <node id="Q30942824">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Asato Asato: 86 &#8211; Eighty-Six</data>
+      <data key="d4">86 &#8211; Eighty-Six</data>
+      <data key="d5">Asato Asato</data>
+      <data key="d6">http://www.wikidata.org/entity/Q30942824</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q109512255">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Akumi Agitogi: Meine ganz besondere Hochzeit</data>
+      <data key="d4">Meine ganz besondere Hochzeit</data>
+      <data key="d5">Akumi Agitogi</data>
+      <data key="d6">http://www.wikidata.org/entity/Q109512255</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q48751907">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Natsu Hy&#363;ga: Die Tageb&#252;cher der Apothekerin</data>
+      <data key="d4">Die Tageb&#252;cher der Apothekerin</data>
+      <data key="d5">Natsu Hy&#363;ga</data>
+      <data key="d6">http://www.wikidata.org/entity/Q48751907</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q86740055">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Saekisan: The Angel Next Door Spoils Me Rotten</data>
+      <data key="d4">The Angel Next Door Spoils Me Rotten</data>
+      <data key="d5">Saekisan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q86740055</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q109512122">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Mashiro: My Love Story with Yamada-kun at Lv999</data>
+      <data key="d4">My Love Story with Yamada-kun at Lv999</data>
+      <data key="d5">Mashiro</data>
+      <data key="d6">http://www.wikidata.org/entity/Q109512122</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q107197531">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">suu Morishita: A Sign of Affection</data>
+      <data key="d4">A Sign of Affection</data>
+      <data key="d5">suu Morishita</data>
+      <data key="d6">http://www.wikidata.org/entity/Q107197531</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q65235036">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Shinichi Fukuda: My Dress-Up Darling</data>
+      <data key="d4">My Dress-Up Darling</data>
+      <data key="d5">Shinichi Fukuda</data>
+      <data key="d6">http://www.wikidata.org/entity/Q65235036</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q221369">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">CLAMP: Chobits</data>
+      <data key="d4">Chobits</data>
+      <data key="d5">CLAMP</data>
+      <data key="d6">http://www.wikidata.org/entity/Q221369</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1977621">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Yoshiyuki Sadamoto: Neon Genesis Evangelion</data>
+      <data key="d4">Neon Genesis Evangelion</data>
+      <data key="d5">Yoshiyuki Sadamoto</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1977621</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q117005561">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Saka Mikami: Kaoru und Rin</data>
+      <data key="d4">Kaoru und Rin</data>
+      <data key="d5">Saka Mikami</data>
+      <data key="d6">http://www.wikidata.org/entity/Q117005561</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v26">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">26</data>
+      <data key="d3">Nr. 26 (Memoki Razol)</data>
+    </node>
+    <node id="Q97329243">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Fredrik Backman: Anxious People</data>
+      <data key="d4">Anxious People</data>
+      <data key="d5">Fredrik Backman</data>
+      <data key="d6">http://www.wikidata.org/entity/Q97329243</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q381756">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Agatha Christie: Tod auf dem Nil</data>
+      <data key="d4">Tod auf dem Nil</data>
+      <data key="d5">Agatha Christie</data>
+      <data key="d6">http://www.wikidata.org/entity/Q381756</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q182961">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Charlotte Bront&#235;: Jane Eyre</data>
+      <data key="d4">Jane Eyre</data>
+      <data key="d5">Charlotte Bront&#235;</data>
+      <data key="d6">http://www.wikidata.org/entity/Q182961</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q224078">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Agatha Christie: Der Mord an Roger Ackroyd</data>
+      <data key="d4">Der Mord an Roger Ackroyd</data>
+      <data key="d5">Agatha Christie</data>
+      <data key="d6">http://www.wikidata.org/entity/Q224078</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q968314">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Stephen King: Rita Hayworth and Shawshank Redemption</data>
+      <data key="d4">Rita Hayworth and Shawshank Redemption</data>
+      <data key="d5">Stephen King</data>
+      <data key="d6">http://www.wikidata.org/entity/Q968314</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q223131">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Arthur Conan Doyle: A Study in Scarlet</data>
+      <data key="d4">A Study in Scarlet</data>
+      <data key="d5">Arthur Conan Doyle</data>
+      <data key="d6">http://www.wikidata.org/entity/Q223131</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q169976">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Philip Pullman: Northern Lights</data>
+      <data key="d4">Northern Lights</data>
+      <data key="d5">Philip Pullman</data>
+      <data key="d6">http://www.wikidata.org/entity/Q169976</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q770188">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Eva Ibbotson: Journey to the River Sea</data>
+      <data key="d4">Journey to the River Sea</data>
+      <data key="d5">Eva Ibbotson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q770188</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1406564">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Judith Kerr: When Hitler Stole Pink Rabbit</data>
+      <data key="d4">When Hitler Stole Pink Rabbit</data>
+      <data key="d5">Judith Kerr</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1406564</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v27">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">27</data>
+      <data key="d3">Nr. 27 (anonym)</data>
+    </node>
+    <node id="Q913599">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jean-Jacques Rousseau: &#201;mile oder &#220;ber die Erziehung</data>
+      <data key="d4">&#201;mile oder &#220;ber die Erziehung</data>
+      <data key="d5">Jean-Jacques Rousseau</data>
+      <data key="d6">http://www.wikidata.org/entity/Q913599</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q658375">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">John Green: Das Schicksal ist ein mieser Verr&#228;ter</data>
+      <data key="d4">Das Schicksal ist ein mieser Verr&#228;ter</data>
+      <data key="d5">John Green</data>
+      <data key="d6">http://www.wikidata.org/entity/Q658375</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1502926">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Hermann Hesse: Narziss und Goldmund</data>
+      <data key="d4">Narziss und Goldmund</data>
+      <data key="d5">Hermann Hesse</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1502926</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q378626">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Walter Moers: Rumo</data>
+      <data key="d4">Rumo</data>
+      <data key="d5">Walter Moers</data>
+      <data key="d6">http://www.wikidata.org/entity/Q378626</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1138063">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">John Green: Margos Spuren</data>
+      <data key="d4">Margos Spuren</data>
+      <data key="d5">John Green</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1138063</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q127165528">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Marc-Uwe Kling: Views</data>
+      <data key="d4">Views</data>
+      <data key="d5">Marc-Uwe Kling</data>
+      <data key="d6">http://www.wikidata.org/entity/Q127165528</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v28">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">28</data>
+      <data key="d3">Nr. 28 (Mabuvo Datup)</data>
+    </node>
+    <node id="Q125521584">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Seanan McGuire: October-Daye-Reihe &#8211; Band 1: Rosemary and Rue</data>
+      <data key="d4">October-Daye-Reihe &#8211; Band 1: Rosemary and Rue</data>
+      <data key="d5">Seanan McGuire</data>
+      <data key="d6">http://www.wikidata.org/entity/Q125521584</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q108749605">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Holly Jackson: A Good Girl's Guide to Murder</data>
+      <data key="d4">A Good Girl's Guide to Murder</data>
+      <data key="d5">Holly Jackson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q108749605</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q18788018">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">V. E. Schwab: Vicious</data>
+      <data key="d4">Vicious</data>
+      <data key="d5">V. E. Schwab</data>
+      <data key="d6">http://www.wikidata.org/entity/Q18788018</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q123677484">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Brigid Kemmerer: Ein Fluch so ewig und kalt</data>
+      <data key="d4">Ein Fluch so ewig und kalt</data>
+      <data key="d5">Brigid Kemmerer</data>
+      <data key="d6">http://www.wikidata.org/entity/Q123677484</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q47008389">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Holly Black: The Cruel Prince</data>
+      <data key="d4">The Cruel Prince</data>
+      <data key="d5">Holly Black</data>
+      <data key="d6">http://www.wikidata.org/entity/Q47008389</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q106814534">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Matt Haig: Die Mitternachtsbibliothek</data>
+      <data key="d4">Die Mitternachtsbibliothek</data>
+      <data key="d5">Matt Haig</data>
+      <data key="d6">http://www.wikidata.org/entity/Q106814534</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q589106">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Cassandra Clare: City of Bones</data>
+      <data key="d4">City of Bones</data>
+      <data key="d5">Cassandra Clare</data>
+      <data key="d6">http://www.wikidata.org/entity/Q589106</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q102036200">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Leigh Bardugo: King of Scars</data>
+      <data key="d4">King of Scars</data>
+      <data key="d5">Leigh Bardugo</data>
+      <data key="d6">http://www.wikidata.org/entity/Q102036200</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v29">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">29</data>
+      <data key="d3">Nr. 29 (Ravavu Pamas)</data>
+    </node>
+    <node id="Q83186">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">William Shakespeare: Romeo und Julia</data>
+      <data key="d4">Romeo und Julia</data>
+      <data key="d5">William Shakespeare</data>
+      <data key="d6">http://www.wikidata.org/entity/Q83186</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q6911">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Anne Frank: Das Tagebuch der Anne Frank</data>
+      <data key="d4">Das Tagebuch der Anne Frank</data>
+      <data key="d5">Anne Frank</data>
+      <data key="d6">http://www.wikidata.org/entity/Q6911</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q29478">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Johann Wolfgang von Goethe: Faust</data>
+      <data key="d4">Faust</data>
+      <data key="d5">Johann Wolfgang von Goethe</data>
+      <data key="d6">http://www.wikidata.org/entity/Q29478</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v30">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">30</data>
+      <data key="d3">Nr. 30 (Zumoku Vuvus)</data>
+    </node>
+    <node id="Q3818322">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Margaret Atwood: Alias Grace</data>
+      <data key="d4">Alias Grace</data>
+      <data key="d5">Margaret Atwood</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3818322</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q110264260">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Angeline Boulley: Firekeeper's Daughter</data>
+      <data key="d4">Firekeeper's Daughter</data>
+      <data key="d5">Angeline Boulley</data>
+      <data key="d6">http://www.wikidata.org/entity/Q110264260</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q573765">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Erich K&#228;stner: Fabian. Die Geschichte eines Moralisten</data>
+      <data key="d4">Fabian. Die Geschichte eines Moralisten</data>
+      <data key="d5">Erich K&#228;stner</data>
+      <data key="d6">http://www.wikidata.org/entity/Q573765</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1767504">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Anna Seghers: Transit</data>
+      <data key="d4">Transit</data>
+      <data key="d5">Anna Seghers</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1767504</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q136148308">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Maria Reva: Endling</data>
+      <data key="d4">Endling</data>
+      <data key="d5">Maria Reva</data>
+      <data key="d6">http://www.wikidata.org/entity/Q136148308</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1751870">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">George R. R. Martin: A Game of Thrones</data>
+      <data key="d4">A Game of Thrones</data>
+      <data key="d5">George R. R. Martin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1751870</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v31">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">31</data>
+      <data key="d3">Nr. 31 (Lizofi Ruvom)</data>
+    </node>
+    <node id="Q1218908">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Christoph Ransmayr: Die letzte Welt</data>
+      <data key="d4">Die letzte Welt</data>
+      <data key="d5">Christoph Ransmayr</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1218908</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q4826169">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Anne Carson: Autobiography of Red</data>
+      <data key="d4">Autobiography of Red</data>
+      <data key="d5">Anne Carson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q4826169</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q16889065">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Caitlin Moran: How to Be a Woman</data>
+      <data key="d4">How to Be a Woman</data>
+      <data key="d5">Caitlin Moran</data>
+      <data key="d6">http://www.wikidata.org/entity/Q16889065</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q115801825">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">M. NourbeSe Philip: Zong!</data>
+      <data key="d4">Zong!</data>
+      <data key="d5">M. NourbeSe Philip</data>
+      <data key="d6">http://www.wikidata.org/entity/Q115801825</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q2215853">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Beno&#238;te Groult: Salz auf unserer Haut</data>
+      <data key="d4">Salz auf unserer Haut</data>
+      <data key="d5">Beno&#238;te Groult</data>
+      <data key="d6">http://www.wikidata.org/entity/Q2215853</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q129778">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Joseph Conrad: Heart of Darkness</data>
+      <data key="d4">Heart of Darkness</data>
+      <data key="d5">Joseph Conrad</data>
+      <data key="d6">http://www.wikidata.org/entity/Q129778</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v32">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">32</data>
+      <data key="d3">Nr. 32 (Kazagu Dupaz)</data>
+    </node>
+    <node id="Q7741279">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Tarjei Vesaas: Das Eisschloss</data>
+      <data key="d4">Das Eisschloss</data>
+      <data key="d5">Tarjei Vesaas</data>
+      <data key="d6">http://www.wikidata.org/entity/Q7741279</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q142006620">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Joanna Bator: Die Flucht der B&#228;rin</data>
+      <data key="d4">Die Flucht der B&#228;rin</data>
+      <data key="d5">Joanna Bator</data>
+      <data key="d6">http://www.wikidata.org/entity/Q142006620</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q25388922">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Francesca Melandri: &#220;ber Meeresh&#246;he</data>
+      <data key="d4">&#220;ber Meeresh&#246;he</data>
+      <data key="d5">Francesca Melandri</data>
+      <data key="d6">http://www.wikidata.org/entity/Q25388922</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q130749180">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Yael van der Wouden: The Safekeep</data>
+      <data key="d4">The Safekeep</data>
+      <data key="d5">Yael van der Wouden</data>
+      <data key="d6">http://www.wikidata.org/entity/Q130749180</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q96380258">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Maggie O'Farrell: Hamnet</data>
+      <data key="d4">Hamnet</data>
+      <data key="d5">Maggie O'Farrell</data>
+      <data key="d6">http://www.wikidata.org/entity/Q96380258</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q11989942">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jon Fosse: Morgen und Abend</data>
+      <data key="d4">Morgen und Abend</data>
+      <data key="d5">Jon Fosse</data>
+      <data key="d6">http://www.wikidata.org/entity/Q11989942</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q16677539">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Amos Oz: Pl&#246;tzlich tief im Wald</data>
+      <data key="d4">Pl&#246;tzlich tief im Wald</data>
+      <data key="d5">Amos Oz</data>
+      <data key="d6">http://www.wikidata.org/entity/Q16677539</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v33">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">33</data>
+      <data key="d3">Nr. 33 (Mizero Pebuz)</data>
+    </node>
+    <node id="Q5563645">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">James Baldwin: Giovanni's Room</data>
+      <data key="d4">Giovanni's Room</data>
+      <data key="d5">James Baldwin</data>
+      <data key="d6">http://www.wikidata.org/entity/Q5563645</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q306619">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ian McEwan: Atonement</data>
+      <data key="d4">Atonement</data>
+      <data key="d5">Ian McEwan</data>
+      <data key="d6">http://www.wikidata.org/entity/Q306619</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3284029">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Clarice Lispector: Nahe dem wilden Herzen</data>
+      <data key="d4">Nahe dem wilden Herzen</data>
+      <data key="d5">Clarice Lispector</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3284029</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1629456">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Virginia Woolf: Orlando</data>
+      <data key="d4">Orlando</data>
+      <data key="d5">Virginia Woolf</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1629456</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q819101">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Markus Zusak: Die B&#252;cherdiebin</data>
+      <data key="d4">Die B&#252;cherdiebin</data>
+      <data key="d5">Markus Zusak</data>
+      <data key="d6">http://www.wikidata.org/entity/Q819101</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q191949">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Aldous Huxley: Brave New World</data>
+      <data key="d4">Brave New World</data>
+      <data key="d5">Aldous Huxley</data>
+      <data key="d6">http://www.wikidata.org/entity/Q191949</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v34">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">34</data>
+      <data key="d3">Nr. 34 (Gotata Mifig)</data>
+    </node>
+    <node id="Q625764">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Salman Rushdie: Midnight's Children</data>
+      <data key="d4">Midnight's Children</data>
+      <data key="d5">Salman Rushdie</data>
+      <data key="d6">http://www.wikidata.org/entity/Q625764</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3794606">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Hassan Blasim: The Madman of Freedom Square</data>
+      <data key="d4">The Madman of Freedom Square</data>
+      <data key="d5">Hassan Blasim</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3794606</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q85790651">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ocean Vuong: On Earth We're Briefly Gorgeous</data>
+      <data key="d4">On Earth We're Briefly Gorgeous</data>
+      <data key="d5">Ocean Vuong</data>
+      <data key="d6">http://www.wikidata.org/entity/Q85790651</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q136352193">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Shida Bazyar: Drei Kameradinnen</data>
+      <data key="d4">Drei Kameradinnen</data>
+      <data key="d5">Shida Bazyar</data>
+      <data key="d6">http://www.wikidata.org/entity/Q136352193</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1196780">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Frank Sch&#228;tzing: Der Schwarm</data>
+      <data key="d4">Der Schwarm</data>
+      <data key="d5">Frank Sch&#228;tzing</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1196780</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q971767">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Toni Morrison: Beloved</data>
+      <data key="d4">Beloved</data>
+      <data key="d5">Toni Morrison</data>
+      <data key="d6">http://www.wikidata.org/entity/Q971767</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v35">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">35</data>
+      <data key="d3">Nr. 35 (Nozido Misaf)</data>
+    </node>
+    <node id="Q1609780">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jeffrey Eugenides: Middlesex</data>
+      <data key="d4">Middlesex</data>
+      <data key="d5">Jeffrey Eugenides</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1609780</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q463108">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Michael Ende: Die unendliche Geschichte</data>
+      <data key="d4">Die unendliche Geschichte</data>
+      <data key="d5">Michael Ende</data>
+      <data key="d6">http://www.wikidata.org/entity/Q463108</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1218321">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Donna Tartt: The Secret History</data>
+      <data key="d4">The Secret History</data>
+      <data key="d5">Donna Tartt</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1218321</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v36">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">36</data>
+      <data key="d3">Nr. 36 (Dotufe Lufat)</data>
+    </node>
+    <node id="Q214371">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">F. Scott Fitzgerald: The Great Gatsby</data>
+      <data key="d4">The Great Gatsby</data>
+      <data key="d5">F. Scott Fitzgerald</data>
+      <data key="d6">http://www.wikidata.org/entity/Q214371</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q116013653">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Alba de C&#233;spedes: Das verbotene Notizbuch</data>
+      <data key="d4">Das verbotene Notizbuch</data>
+      <data key="d5">Alba de C&#233;spedes</data>
+      <data key="d6">http://www.wikidata.org/entity/Q116013653</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3230588">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Annie Ernaux: Die Jahre</data>
+      <data key="d4">Die Jahre</data>
+      <data key="d5">Annie Ernaux</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3230588</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1445395">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">J. D. Salinger: Franny und Zooey</data>
+      <data key="d4">Franny und Zooey</data>
+      <data key="d5">J. D. Salinger</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1445395</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q65063529">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Delia Owens: Der Gesang der Flusskrebse</data>
+      <data key="d4">Der Gesang der Flusskrebse</data>
+      <data key="d5">Delia Owens</data>
+      <data key="d6">http://www.wikidata.org/entity/Q65063529</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q108743629">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jonathan Franzen: Crossroads</data>
+      <data key="d4">Crossroads</data>
+      <data key="d5">Jonathan Franzen</data>
+      <data key="d6">http://www.wikidata.org/entity/Q108743629</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v37">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">37</data>
+      <data key="d3">Nr. 37 (Sekola Gutoz)</data>
+    </node>
+    <node id="Q917055">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Milan Kundera: Die unertr&#228;gliche Leichtigkeit des Seins</data>
+      <data key="d4">Die unertr&#228;gliche Leichtigkeit des Seins</data>
+      <data key="d5">Milan Kundera</data>
+      <data key="d6">http://www.wikidata.org/entity/Q917055</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1783258">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Christa Wolf: Medea. Stimmen</data>
+      <data key="d4">Medea. Stimmen</data>
+      <data key="d5">Christa Wolf</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1783258</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q320372">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Albert Camus: Die Pest</data>
+      <data key="d4">Die Pest</data>
+      <data key="d5">Albert Camus</data>
+      <data key="d6">http://www.wikidata.org/entity/Q320372</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q1325403">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Hermann Hesse: Unterm Rad</data>
+      <data key="d4">Unterm Rad</data>
+      <data key="d5">Hermann Hesse</data>
+      <data key="d6">http://www.wikidata.org/entity/Q1325403</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q896376">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Christa Wolf: Kassandra</data>
+      <data key="d4">Kassandra</data>
+      <data key="d5">Christa Wolf</data>
+      <data key="d6">http://www.wikidata.org/entity/Q896376</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q24082770">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Han Kang: Die Vegetarierin</data>
+      <data key="d4">Die Vegetarierin</data>
+      <data key="d5">Han Kang</data>
+      <data key="d6">http://www.wikidata.org/entity/Q24082770</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v38">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">38</data>
+      <data key="d3">Nr. 38 (Pufefi Padus)</data>
+    </node>
+    <node id="Q191838">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Alexandre Dumas: Le Comte de Monte-Cristo</data>
+      <data key="d4">Le Comte de Monte-Cristo</data>
+      <data key="d5">Alexandre Dumas</data>
+      <data key="d6">http://www.wikidata.org/entity/Q191838</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q3233633">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Joseph Kessel: Les Mains du miracle</data>
+      <data key="d4">Les Mains du miracle</data>
+      <data key="d5">Joseph Kessel</data>
+      <data key="d6">http://www.wikidata.org/entity/Q3233633</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q30727808">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Philippe Besson: Arr&#234;te avec tes mensonges</data>
+      <data key="d4">Arr&#234;te avec tes mensonges</data>
+      <data key="d5">Philippe Besson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q30727808</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q7723889">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Stephen Chbosky: The Perks of Being a Wallflower</data>
+      <data key="d4">The Perks of Being a Wallflower</data>
+      <data key="d5">Stephen Chbosky</data>
+      <data key="d6">http://www.wikidata.org/entity/Q7723889</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v39">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">39</data>
+      <data key="d3">Nr. 39 (Bupini Pogad)</data>
+    </node>
+    <node id="Q202009">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Ray Bradbury: Fahrenheit 451</data>
+      <data key="d4">Fahrenheit 451</data>
+      <data key="d5">Ray Bradbury</data>
+      <data key="d6">http://www.wikidata.org/entity/Q202009</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q849701">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">John Steinbeck: East of Eden</data>
+      <data key="d4">East of Eden</data>
+      <data key="d5">John Steinbeck</data>
+      <data key="d6">http://www.wikidata.org/entity/Q849701</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q183157">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Fyodor Dostoevsky: The Brothers Karamazov</data>
+      <data key="d4">The Brothers Karamazov</data>
+      <data key="d5">Fyodor Dostoevsky</data>
+      <data key="d6">http://www.wikidata.org/entity/Q183157</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="v40">
+      <data key="d0">voter</data>
+      <data key="d1">0</data>
+      <data key="d2">40</data>
+      <data key="d3">Nr. 40 (Vefive Bimam)</data>
+    </node>
+    <node id="Q25218724">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Kristin Hannah: Die Nachtigall</data>
+      <data key="d4">Die Nachtigall</data>
+      <data key="d5">Kristin Hannah</data>
+      <data key="d6">http://www.wikidata.org/entity/Q25218724</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q67932442">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Mo Xiang Tong Xiu: Grandmaster of Demonic Cultivation</data>
+      <data key="d4">Grandmaster of Demonic Cultivation</data>
+      <data key="d5">Mo Xiang Tong Xiu</data>
+      <data key="d6">http://www.wikidata.org/entity/Q67932442</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q54488337">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Taylor Jenkins Reid: The Seven Husbands of Evelyn Hugo</data>
+      <data key="d4">The Seven Husbands of Evelyn Hugo</data>
+      <data key="d5">Taylor Jenkins Reid</data>
+      <data key="d6">http://www.wikidata.org/entity/Q54488337</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q18393778">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Pierce Brown: Red Rising</data>
+      <data key="d4">Red Rising</data>
+      <data key="d5">Pierce Brown</data>
+      <data key="d6">http://www.wikidata.org/entity/Q18393778</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q48967442">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Neal Shusterman: Scythe</data>
+      <data key="d4">Scythe</data>
+      <data key="d5">Neal Shusterman</data>
+      <data key="d6">http://www.wikidata.org/entity/Q48967442</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q116954814">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">Jay Kristoff: Das Reich der Vampire</data>
+      <data key="d4">Das Reich der Vampire</data>
+      <data key="d5">Jay Kristoff</data>
+      <data key="d6">http://www.wikidata.org/entity/Q116954814</data>
+      <data key="d7">false</data>
+    </node>
+    <node id="Q134881185">
+      <data key="d0">work</data>
+      <data key="d1">1</data>
+      <data key="d3">S. T. Gibson: A Dowry of Blood</data>
+      <data key="d4">A Dowry of Blood</data>
+      <data key="d5">S. T. Gibson</data>
+      <data key="d6">http://www.wikidata.org/entity/Q134881185</data>
+      <data key="d7">false</data>
+    </node>
+    <edge source="v1" target="Q25217632">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q1215312">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q15228">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q11679">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q20850750">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q602288">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q8337">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q5459690">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q565911">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v1" target="Q21451652">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q15228" target="v13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q15228" target="v29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q15228" target="v31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q15228" target="v39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v6">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v12">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v27">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v28">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v30">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v33">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q11679" target="v38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q20850750" target="v27">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q602288" target="v29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q8337" target="v12">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q8337" target="v13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q8337" target="v29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q8337" target="v39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q565911" target="v7">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q1171410">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q1213085">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q141997140">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q16632043">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q27863945">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q55360383">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q55624271">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q25384340">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q141997152">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v2" target="Q127414752">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1213085" target="v6">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1213085" target="v33">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1213085" target="v37">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q55360383" target="v17">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q55624271" target="v19">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q25384340" target="v12">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q25384340" target="v36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q127414752" target="v14">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q127414752" target="v27">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q127414752" target="v35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q892658">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q6507">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q723020">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q3822159">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q3230679">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q459303">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q464928">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q213167">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q5724235">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v3" target="Q3226484">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q459303" target="v31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q459303" target="v34">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q464928" target="v9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q464928" target="v11">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q523076">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q141994706">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q119803356">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q141997161">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q124404521">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q59145046">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q1458903">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q113157560">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q18107449">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v4" target="Q56491386">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q523076" target="v5">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q119803356" target="v14">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q56491386" target="v40">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q22981812">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q3927652">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q28846426">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q364565">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q223880">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q1962934">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q85875420">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q131143579">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v5" target="Q1920758">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q22981812" target="v35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q28846426" target="v36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q223880" target="v39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q141997207">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q1990737">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q3107329">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q25212851">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q23763076">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q114310172">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q360992">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v6" target="Q150827">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q23763076" target="v28">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q114310172" target="v16">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q114310172" target="v40">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q150827" target="v15">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q150827" target="v16">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q150827" target="v21">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q85761958">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q115818209">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q821709">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q28127551">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q115683368">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q170583">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q100330025">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q141803586">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v7" target="Q183883">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v8">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v21">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v26">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v32">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v37">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q170583" target="v39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q212898">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q836841">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q899334">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q163297">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q217073">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q8265">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q208460">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q694245">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v8" target="Q1194031">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q212898" target="v9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q212898" target="v11">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q212898" target="v24">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q212898" target="v30">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q163297" target="v11">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q163297" target="v30">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q163297" target="v38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q8265" target="v9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v9" target="Q178869">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v9" target="Q2870">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v9" target="Q147787">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v9" target="Q202975">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v9" target="Q326909">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v9" target="Q1187639">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q147787" target="v37">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q202975" target="v15">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q202975" target="v29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q202975" target="v34">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q326909" target="v30">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q126942910">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q16130921">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q134884901">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q353180">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q50413747">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q54352950">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q844847">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q141996873">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q655701">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v10" target="Q1636184">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q50413747" target="v19">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v11" target="Q1195668">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v11" target="Q682733">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v11" target="Q1204366">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v11" target="Q501351">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v11" target="Q727408">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v11" target="Q1214721">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v11" target="Q670637">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1204366" target="v29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1204366" target="v35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v12" target="Q140085770">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v12" target="Q107143229">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v12" target="Q20709044">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v12" target="Q28083618">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v12" target="Q108092858">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v12" target="Q113957948">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v12" target="Q15820604">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q20709044" target="v23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v13" target="Q82464">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q82464" target="v31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q141092693">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q27780083">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q141998094">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q136452306">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q30742322">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q142001936">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q142002462">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v14" target="Q142002888">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q141092693" target="v19">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q30742322" target="v33">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q1217475">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q15080194">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q99434216">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q4843750">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q22248559">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q85769180">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q21189971">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v15" target="Q3190286">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q3190286" target="v31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q2008211">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q139717537">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q874381">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q1541914">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q1057726">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q786908">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q1212143">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v16" target="Q1349624">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1541914" target="v29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1541914" target="v40">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q786908" target="v27">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q114728809">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q1887393">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q128620441">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q114720832">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q212340">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q142003916">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q126828922">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q3823559">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v17" target="Q133876404">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q114728809" target="v22">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q114728809" target="v23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1887393" target="v22">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1887393" target="v23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q212340" target="v35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q212340" target="v38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q212340" target="v39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q64590884">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q30600501">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q5979741">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q140695037">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q1069956">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q131036665">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q96075523">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q756604">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q130747162">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v18" target="Q428680">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q5979741" target="v19">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q5979741" target="v32">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q5979741" target="v33">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q140695037" target="v19">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1069956" target="v34">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v19" target="Q109567666">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v19" target="Q111432741">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v19" target="Q19876383">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v19" target="Q142004408">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v19" target="Q142004944">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q142004408" target="v20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q254661">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q207332">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q1430645">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q134007202">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q142005516">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q3565822">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q142006002">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v20" target="Q499564">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q207332" target="v22">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q40205">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q480">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q129929">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q628410">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q41542">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q165318">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q26505">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v21" target="Q457977">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q480" target="v24">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q41542" target="v23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q165318" target="v24">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v22" target="Q1112285">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v22" target="Q860577">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v22" target="Q1296168">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v22" target="Q3057258">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v22" target="Q106821905">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v22" target="Q141994313">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1296168" target="v23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q3057258" target="v23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v23" target="Q57417096">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v23" target="Q114761918">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v23" target="Q100997892">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v23" target="Q841315">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v24" target="Q6511">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v24" target="Q35160">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v24" target="Q219552">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v24" target="Q2092894">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v24" target="Q36097">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v24" target="Q1513820">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v24" target="Q161531">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q30942824">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q109512255">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q48751907">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q86740055">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q109512122">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q107197531">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q65235036">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q221369">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q1977621">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v25" target="Q117005561">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q97329243">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q381756">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q182961">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q224078">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q968314">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q223131">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q169976">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q770188">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v26" target="Q1406564">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q182961" target="v38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v27" target="Q913599">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v27" target="Q658375">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v27" target="Q1502926">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v27" target="Q378626">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v27" target="Q1138063">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v27" target="Q127165528">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q1502926" target="v32">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q125521584">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q108749605">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q18788018">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q123677484">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q47008389">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q106814534">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q589106">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v28" target="Q102036200">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v29" target="Q83186">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v29" target="Q6911">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v29" target="Q29478">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v30" target="Q3818322">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v30" target="Q110264260">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v30" target="Q573765">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v30" target="Q1767504">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v30" target="Q136148308">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v30" target="Q1751870">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v31" target="Q1218908">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v31" target="Q4826169">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v31" target="Q16889065">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v31" target="Q115801825">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v31" target="Q2215853">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v31" target="Q129778">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v32" target="Q7741279">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v32" target="Q142006620">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v32" target="Q25388922">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v32" target="Q130749180">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v32" target="Q96380258">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v32" target="Q11989942">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v32" target="Q16677539">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v33" target="Q5563645">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v33" target="Q306619">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v33" target="Q3284029">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v33" target="Q1629456">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v33" target="Q819101">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v33" target="Q191949">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q5563645" target="v37">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q306619" target="v34">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q306619" target="v35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q306619" target="v36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q191949" target="v39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v34" target="Q625764">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v34" target="Q3794606">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v34" target="Q85790651">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v34" target="Q136352193">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v34" target="Q1196780">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v34" target="Q971767">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q971767" target="v35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v35" target="Q1609780">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v35" target="Q463108">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v35" target="Q1218321">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v36" target="Q214371">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v36" target="Q116013653">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v36" target="Q3230588">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v36" target="Q1445395">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v36" target="Q65063529">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v36" target="Q108743629">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q214371" target="v38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="Q214371" target="v39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v37" target="Q917055">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v37" target="Q1783258">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v37" target="Q320372">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v37" target="Q1325403">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v37" target="Q896376">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v37" target="Q24082770">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v38" target="Q191838">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v38" target="Q3233633">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v38" target="Q30727808">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v38" target="Q7723889">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v39" target="Q202009">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v39" target="Q849701">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v39" target="Q183157">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v40" target="Q25218724">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v40" target="Q67932442">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v40" target="Q54488337">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v40" target="Q18393778">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v40" target="Q48967442">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v40" target="Q116954814">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="v40" target="Q134881185">
+      <data key="d8">1</data>
+    </edge>
+  </graph>
+</graphml>

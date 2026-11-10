@@ -1,7 +1,7 @@
 {
   "meta": {
-    "source": "seminarkanon_normalized_plus_wikidata_2026-11-08.txt",
-    "created": "2026-11-08",
+    "source": "seminarkanon_normalized_plus_wikidata_2026-11-10.txt",
+    "created": "2026-11-10",
     "max_works_per_ballot": 10,
     "pseudonymization": "HMAC-SHA256 (geheimer Schlüssel) → Silben-Pseudonym",
     "ballot_count": 40,

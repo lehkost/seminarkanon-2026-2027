@@ -2,7 +2,7 @@
 
 Top-10-Romanlisten aus dem Seminar 16480 „Die besten Bücher aller Zeiten? Kanonbildung im 21. Jahrhundert“ (FU Berlin, WiSe 2026/2027, Prof. Dr. Frank Fischer).
 
-**Website:** https://lehkost.github.io/seminarkanon_2026-2027/
+**Website:** https://lehkost.github.io/seminarkanon-2026-2027/
 
 ## Daten
 

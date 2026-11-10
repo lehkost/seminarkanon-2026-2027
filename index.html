@@ -122,7 +122,8 @@ ol.rank > li { border-bottom: 1px solid var(--rule); break-inside: avoid; }
 .barbox i { display: block; height: 100%; background: var(--bar); }
 .detail { padding: 0 4px 12px calc(3.2rem + 18px); font-size: 14px; color: var(--muted); display: grid; gap: 4px; }
 .detail .chips { display: flex; flex-wrap: wrap; gap: 4px 6px; }
-.chip { font: 12px var(--f-mono); border: 1px solid var(--rule); border-radius: 3px; padding: 1px 6px; background: var(--card); color: var(--ink); }
+.chip { font: 12px var(--f-mono); border: 1px solid var(--rule); border-radius: 3px; padding: 1px 6px; background: var(--card); color: var(--ink); text-decoration: none; }
+a.chip:hover { border-color: var(--accent); color: var(--accent); }
 .more { margin: 16px 0 0; font: 14px var(--f-mono); background: var(--card); color: var(--accent); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 14px; cursor: pointer; }
 
 /* Stimmzettel */
@@ -130,7 +131,20 @@ ol.rank > li { border-bottom: 1px solid var(--rule); break-inside: avoid; }
 .ballot { background: var(--card); border: 1px solid var(--rule); border-radius: 4px; padding: 14px 16px 12px; min-width: 0;
   background-image: linear-gradient(var(--rule), var(--rule)); background-size: 100% 1px; background-repeat: no-repeat; background-position: 0 46px; }
 .ballot h3 { margin: 0 0 14px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; font-size: 15px; font-weight: 600; }
-.ballot h3 .no { font-family: var(--f-mono); font-weight: 500; color: var(--accent); }
+.ballot h3 .no { font-family: var(--f-mono); font-weight: 500; color: var(--accent); text-decoration: none; }
+.ballot h3 .no:hover { text-decoration: underline; }
+.ballot { scroll-margin-top: 16px; }
+.ballot.hl { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+
+/* Downloads */
+.dl { display: grid; gap: 14px; margin-top: 22px; max-width: 72ch; }
+.dl h2 { font-size: 1.15rem; margin: 0; }
+.dl-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 20px; align-items: center; padding: 14px 16px; background: var(--card); border: 1px solid var(--rule); border-radius: 4px; }
+.dl-item .name { font: 15px var(--f-mono); font-weight: 500; }
+.dl-item .desc { font-size: 14px; color: var(--muted); grid-column: 1; }
+.dl-item .btn { grid-column: 2; grid-row: 1 / span 2; font: 13px var(--f-mono); text-decoration: none; color: var(--paper); background: var(--accent); border-radius: 6px; padding: 8px 14px; white-space: nowrap; }
+.dl-item .btn.alt { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+@media (max-width: 560px) { .dl-item { grid-template-columns: minmax(0, 1fr); } .dl-item .btn { grid-column: 1; grid-row: auto; justify-self: start; margin-top: 6px; } }
 .ballot h3 .who { font-style: italic; font-weight: 400; color: var(--muted); text-align: right; }
 .ballot ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 14px; line-height: 1.4; }
 .ballot li { display: grid; grid-template-columns: 1.7rem minmax(0,1fr) 2.2rem; gap: 6px; }
@@ -164,21 +178,21 @@ footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule);
   <header class="intro">
     <div class="intro-a">
     <h1>Seminarkanon</h1>
-    <p class="course">Seminar 16480 <a href="https://www.fu-berlin.de/vv/de/lv/1110430" target="_blank" rel="noopener">„Die besten Bücher aller Zeiten? Kanonbildung im 21. Jahrhundert“</a> (Prof. Dr. Frank Fischer)</p>
+    <p class="course">Seminar 16480 <a href="https://www.fu-berlin.de/vv/de/lv/1110430" target="_blank" rel="noopener">»Die besten Bücher aller Zeiten? Kanonbildung im 21. Jahrhundert«</a> (Prof. Dr. Frank Fischer)</p>
     <p>In der ersten Seminarsitzung am 15. Oktober 2026 wurde die Aufgabe gestellt:</p>
-    <blockquote class="task">„Erstellen Sie eine Top-10-Liste mit den Ihrer Meinung nach besten Romanen aller Zeiten.“</blockquote>
+    <blockquote class="task">»Erstellen Sie eine Top-10-Liste mit den Ihrer Meinung nach besten Romanen aller Zeiten.«</blockquote>
     </div>
     <div class="intro-b">
     <div>
       <p>Kriterien:</p>
       <ul class="criteria">
         <li>Die Liste ist gerankt, vom 1. (best) bis zum 10. Platz.</li>
-        <li>Es sollten ‘Romane’ sein.</li>
+        <li>Es sollten ›Romane‹ sein.</li>
         <li>Keine Einschränkungen hinsichtlich Originalsprachen, Autor*innen, Epochen, Romangenres.</li>
         <li>Sie haben 10 Minuten Zeit.</li>
       </ul>
     </div>
-    <p>Nachfragen à la „Was meinen Sie mit ‚Roman‘?“ wurden dezidiert nicht beantwortet. Bei der Bewertung wurden nur die 10 erstgenannten Titel gewertet, der Rest ignoriert. Abgegeben wurden <span id="n-ballots">40</span> Stimmzettel.</p>
+    <p>Nachfragen à la »Was meinen Sie mit ›Roman‹?« wurden dezidiert nicht beantwortet. Bei der Bewertung wurden nur die 10 erstgenannten Titel gewertet, der Rest ignoriert. Abgegeben wurden <span id="n-ballots">40</span> Stimmzettel.</p>
     </div>
     <div class="stats" id="stats"></div>
   </header>
@@ -187,6 +201,7 @@ footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule);
     <a href="#werke" data-view="werke">Werke</a>
     <a href="#autorinnen" data-view="autorinnen">Autor*innen</a>
     <a href="#stimmzettel" data-view="stimmzettel">Stimmzettel</a>
+    <a href="#downloads" data-view="downloads">Downloads</a>
   </nav>
 
   <main id="main"><p class="explain">Daten werden geladen …</p></main>
@@ -207,6 +222,11 @@ footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule);
   let D = null;
 
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const SITE = 'https://lehkost.github.io/seminarkanon-2026-2027/';
+  const DATA_JSON = 'seminarkanon.json';
+  const DATA_GRAPHML = 'seminarkanon.graphml';
+  const GEPHI_LITE = 'https://gephi.org/gephi-lite/?file=' + SITE + DATA_GRAPHML;
+  const ballotAnchor = id => 'stimmzettel_' + String(id).padStart(2, '0');
   const wd = q => q ? `http://www.wikidata.org/entity/${q}` : null;
   const link = (text, q) => q ? `<a href="${wd(q)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
   const authorLinks = authors => authors.map(a => link(a.name, a.wikidata)).join(', ');
@@ -306,7 +326,7 @@ footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule);
       }
       const detail = open ? `<div class="detail">
           <div>Platzierungen (Stimmzettel-Nr. · Platz):</div>
-          <div class="chips">${x.hits.map(h => `<span class="chip" title="${esc(h.title)}">#${h.ballot} · ${h.rank}.</span>`).join('')}</div>
+          <div class="chips">${x.hits.map(h => `<a class="chip" href="#${ballotAnchor(h.ballot)}" title="${esc(h.title)} – Stimmzettel Nr. ${h.ballot} öffnen">#${h.ballot} · ${h.rank}.</a>`).join('')}</div>
           ${x.isComplex || kind === 'authors' ? `<div>Titel: ${mostCommon(x.hits.map(h => h.title)).map(esc).join(' · ')}</div>` : ''}
           ${x.qid ? `<div class="mono">${x.qid}</div>` : ''}
         </div>` : '';
@@ -345,7 +365,7 @@ footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule);
     return `<div class="controls">
         <span><span class="ctl-label">Wertung</span>${seg('authorMetric', state.authorMetric, [['points', 'Punkte'], ['count', 'Nennungen']])}</span>
       </div>
-      <p class="explain">${ex} Zusammengeführt über die Wikidata-ID, daher zählen etwa „Fjodor Dostojewski“ und „Fyodor Dostoevsky“ gemeinsam. Bei „Die Elfen“ (Bernhard Hennen und James Sullivan) erhalten beide die vollen Punkte.</p>
+      <p class="explain">${ex} Zusammengeführt über die Wikidata-ID, daher zählen etwa »Fjodor Dostojewski« und »Fyodor Dostoevsky« gemeinsam. Bei »Die Elfen« (Bernhard Hennen und James Sullivan) erhalten beide die vollen Punkte.</p>
       ${rankList('authors', list, state.authorMetric)}`;
   }
 
@@ -359,27 +379,57 @@ footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule);
     };
     const cards = D.data.ballots.map(b => {
       const notes = b.notes.filter(n => !/leer gelassen/.test(n));
-      return `<article class="ballot" id="z${b.id}">
-        <h3><span class="no">Nr. ${b.id}</span><span class="who">${b.voter_anonymous ? 'anonym' : esc(b.voter)}</span></h3>
+      return `<article class="ballot" id="${ballotAnchor(b.id)}">
+        <h3><a class="no" href="#${ballotAnchor(b.id)}" title="Permalink zu Stimmzettel Nr. ${b.id}">Nr. ${b.id}</a><span class="who">${b.voter_anonymous ? 'anonym' : esc(b.voter)}</span></h3>
         ${notes.map(n => `<p class="note">${esc(n)}</p>`).join('')}
         <ol>${b.works.map(w => li(w, true)).join('')}</ol>
         ${b.overflow.length ? `<div class="off"><div class="off-label">nicht gewertet</div><ol>${b.overflow.map(w => li(w, false)).join('')}</ol></div>` : ''}
       </article>`;
     }).join('');
-    return `<p class="explain" style="margin-top:22px">Alle ${D.data.ballots.length} Stimmzettel in der abgegebenen Reihenfolge. Die Namen sind pseudonymisiert. Rechts stehen die vergebenen Punkte; Autornamen in eckigen Klammern wurden nachträglich ergänzt. Ab Platz 11 wurde nicht gewertet; die Nummerierung der Vorlagen ist durchgezählt (aus „5.5“ wurde Platz 6).</p>
+    return `<p class="explain" style="margin-top:22px">Alle ${D.data.ballots.length} Stimmzettel in der abgegebenen Reihenfolge. Die Namen sind pseudonymisiert. Rechts stehen die vergebenen Punkte; Autornamen in eckigen Klammern wurden nachträglich ergänzt. Ab Platz 11 wurde nicht gewertet; die Nummerierung der Vorlagen ist durchgezählt (aus »5.5« wurde Platz 6).</p>
       <div class="ballots">${cards}</div>`;
+  }
+
+  function viewDownloads() {
+    const voters = D.data.ballots.length, works = D.works.agg.length, edges = D.entries.length;
+    return `<div class="dl">
+        <h2>Abstimmungsdaten in den Formaten JSON und GraphML</h2>
+        <div class="dl-item">
+          <span class="name">seminarkanon.json</span>
+          <span class="desc">Alle ${voters} Stimmzettel mit Rängen, pseudonymisierten Namen und Wikidata-IDs für Werke und Autor*innen. Grundlage aller Ranglisten auf dieser Seite.</span>
+          <a class="btn" href="${DATA_JSON}" download>JSON herunterladen</a>
+        </div>
+        <div class="dl-item">
+          <span class="name">seminarkanon.graphml</span>
+          <span class="desc">Bipartites Netzwerk aus ${voters} Stimmzetteln und ${works} Werken mit ${edges} Kanten. Jede Kante steht für eine Nennung auf Platz 1–10 (Gewicht 1, ohne Punkte); die fünf Werkkomplexe sind zusammengefasst.</span>
+          <a class="btn" href="${DATA_GRAPHML}" download>GraphML herunterladen</a>
+        </div>
+        <div class="dl-item">
+          <span class="name">Gephi Lite</span>
+          <span class="desc">Das Netzwerk ohne Installation im Browser öffnen und analysieren.</span>
+          <a class="btn alt" href="${GEPHI_LITE}" target="_blank" rel="noopener">GraphML direkt in Gephi Lite analysieren</a>
+        </div>
+      </div>`;
   }
 
   function render() {
     document.querySelectorAll('nav.tabs a').forEach(a => a.setAttribute('aria-current', a.dataset.view === state.view ? 'page' : 'false'));
     if (!D) return;
-    main.innerHTML = state.view === 'autorinnen' ? viewAuthors() : state.view === 'stimmzettel' ? viewBallots() : viewWorks();
+    main.innerHTML = state.view === 'autorinnen' ? viewAuthors()
+      : state.view === 'stimmzettel' ? viewBallots()
+      : state.view === 'downloads' ? viewDownloads()
+      : viewWorks();
   }
 
   function route() {
     const h = location.hash.replace('#', '');
-    state.view = ['werke', 'autorinnen', 'stimmzettel'].includes(h) ? h : 'werke';
+    const m = /^stimmzettel_(\d+)$/.exec(h);
+    state.view = m ? 'stimmzettel' : ['werke', 'autorinnen', 'stimmzettel', 'downloads'].includes(h) ? h : 'werke';
     render();
+    if (m && D) {
+      const el = document.getElementById(ballotAnchor(+m[1]));
+      if (el) { el.classList.add('hl'); el.scrollIntoView({ block: 'start' }); }
+    }
   }
 
   main.addEventListener('click', ev => {
